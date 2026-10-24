@@ -22,12 +22,6 @@
     <option value="letterboxd">Letterboxd</option>
     <option value="wikipedia">Wikipedia</option>
   </select>
-  <select id="sort">
-    <option value="added">Recently added</option>
-    <option value="title">Title</option>
-    <option value="year">Year</option>
-    <option value="rating">IMDb rating</option>
-  </select>
   <label><input id="hide" type="checkbox" checked> Hide watched</label>
 </p>
 <p><button id="addbtn" type="button">Add a title</button></p>
@@ -44,8 +38,9 @@
   <button id="a_clear" type="button">Clear local additions</button></p>
 </div>
 <p id="count"></p>
+<p><small>Click a column heading to sort. <button id="newest" type="button">Newest first</button></small></p>
 <table>
-  <thead><tr><th>Title</th><th>Year</th><th>Director</th><th>Genres</th><th>Rating</th><th>Links</th></tr></thead>
+  <thead><tr><th data-key="title">Title<span></span></th><th data-key="year">Year<span></span></th><th data-key="director">Director<span></span></th><th data-key="genres">Genres<span></span></th><th data-key="rating">Rating<span></span></th><th>Links</th></tr></thead>
   <tbody id="rows"></tbody>
 </table>
 <script src="app.js"></script>

@@ -1,5 +1,6 @@
 var movies = [];
 var local = [];
+var sortKey = "added", sortDir = "desc";
 try { local = JSON.parse(localStorage.getItem("extraTitles") || "[]"); } catch (e) { local = []; }
 function normT(s) { return String(s).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, ""); }
 function saveLocal() { try { localStorage.setItem("extraTitles", JSON.stringify(local)); } catch (e) {} }
@@ -28,7 +29,7 @@ function link(url, label) {
 
 function render() {
   var q = $("q").value.toLowerCase();
-  var type = $("type").value, source = $("source").value, sort = $("sort").value;
+  var type = $("type").value, source = $("source").value;
   var hide = $("hide").checked;
 
   var list = allMovies().filter(function (m) {
@@ -40,11 +41,21 @@ function render() {
     return hay.indexOf(q) !== -1;
   });
 
+  var numeric = sortKey === "year" || sortKey === "rating";
   list.sort(function (a, b) {
-    if (sort === "title") return a.title.localeCompare(b.title);
-    if (sort === "year") return (b.year || 0) - (a.year || 0);
-    if (sort === "rating") return (b.rating || 0) - (a.rating || 0);
-    return b.added < a.added ? -1 : b.added > a.added ? 1 : 0;
+    var x = a[sortKey], y = b[sortKey];
+    var xe = x == null || x === "", ye = y == null || y === "";
+    if (xe || ye) return xe && ye ? 0 : xe ? 1 : -1;  // blanks always last
+    var c;
+    if (numeric) c = x - y;
+    else if (sortKey === "added") c = x < y ? -1 : x > y ? 1 : 0;
+    else c = String(x).toLowerCase().localeCompare(String(y).toLowerCase());
+    if (c === 0) return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
+    return sortDir === "asc" ? c : -c;
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll("th[data-key]"), function (th) {
+    th.lastChild.textContent = th.getAttribute("data-key") === sortKey ? (sortDir === "asc" ? " \u25B2" : " \u25BC") : "";
   });
 
   $("count").textContent = list.length + " titles";
@@ -63,10 +74,24 @@ function render() {
   }).join("");
 }
 
-["q", "type", "source", "sort", "hide"].forEach(function (id) {
+["q", "type", "source", "hide"].forEach(function (id) {
   $(id).addEventListener("input", render);
   $(id).addEventListener("change", render);
 });
+
+Array.prototype.forEach.call(document.querySelectorAll("th[data-key]"), function (th) {
+  th.addEventListener("click", function () {
+    var key = th.getAttribute("data-key");
+    if (key === sortKey) {
+      sortDir = sortDir === "asc" ? "desc" : "asc";
+    } else {
+      sortKey = key;
+      sortDir = (key === "year" || key === "rating") ? "desc" : "asc";  // text A-Z, numbers high-low first
+    }
+    render();
+  });
+});
+$("newest").addEventListener("click", function () { sortKey = "added"; sortDir = "desc"; render(); });
 
 $("addbtn").addEventListener("click", function () {
   $("addbox").hidden = !$("addbox").hidden;
