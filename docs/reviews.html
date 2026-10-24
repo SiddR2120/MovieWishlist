@@ -4,11 +4,45 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My Reviews</title>
-<link rel="stylesheet" href="style.css">
+<style>
+body { margin: 1em auto; max-width: 50em; padding: 0 1em; }
+textarea { width: 100%; box-sizing: border-box; }
+input[type=search] { width: 16em; }
+</style>
 </head>
 <body>
 <h1>My Reviews</h1>
 <p><a href="index.html">Back to watchlist</a></p>
+<p><button id="addbtn" type="button">Add a review</button></p>
+<div id="addbox" hidden>
+  <p>
+    <input id="r_title" list="titles" placeholder="Title">
+    <datalist id="titles"></datalist>
+    <input id="r_year" placeholder="Year" size="5">
+    <select id="r_rating">
+      <option value="">No rating</option>
+      <option value="5">5 stars</option><option value="4.5">4.5</option><option value="4">4</option>
+      <option value="3.5">3.5</option><option value="3">3</option><option value="2.5">2.5</option>
+      <option value="2">2</option><option value="1.5">1.5</option><option value="1">1</option>
+      <option value="0.5">0.5</option>
+    </select>
+    <input id="r_date" type="date">
+    <label><input id="r_rewatch" type="checkbox"> Rewatch</label>
+  </p>
+  <p><input id="r_tags" placeholder="Tags (optional)" size="30"></p>
+  <p><textarea id="r_text" rows="6" placeholder="Your review"></textarea></p>
+  <p><button id="r_save" type="button">Add review</button></p>
+  <p id="r_status"></p>
+  <p id="tok_off"><small>To save reviews into data/my-reviews.csv automatically, paste a GitHub token for this repo:
+  <input id="t_in" type="password" placeholder="GitHub token" size="30">
+  <button id="t_save" type="button">Save token</button></small></p>
+  <p id="tok_on" hidden><small>Saving to GitHub is on. <button id="t_clear" type="button">Remove token</button></small></p>
+  <p><small>Reviews not yet saved to GitHub (copy into
+  <a href="https://github.com/SiddR2120/MovieWishlist/edit/main/data/my-reviews.csv">data/my-reviews.csv</a> if needed):</small><br>
+  <textarea id="r_csv" rows="3" readonly></textarea><br>
+  <button id="r_clear" type="button">Clear unsaved reviews</button></p>
+  <hr>
+</div>
 <p>
   <input id="q" type="search" placeholder="Search reviews">
   <select id="sort">
@@ -19,6 +53,185 @@
 </p>
 <p id="count"></p>
 <div id="list"></div>
-<script src="reviews.js"></script>
+<script>
+var OWNER = "SiddR2120", REPO = "MovieWishlist", FILE = "data/my-reviews.csv", BRANCH = "main";
+var HEADER = "ID,Date,Name,Year,Rating,Review,Tags,Rewatch";
+var $ = function (id) { return document.getElementById(id); };
+var token = "", local = [], reviews = [], movies = [];
+try { token = localStorage.getItem("ghToken") || ""; } catch (e) {}
+try { local = JSON.parse(localStorage.getItem("myReviews") || "[]"); } catch (e) { local = []; }
+
+function saveLocal() { try { localStorage.setItem("myReviews", JSON.stringify(local)); } catch (e) {} }
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+  });
+}
+function normT(s) { return String(s).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, ""); }
+function csvCell(s) { s = String(s == null ? "" : s); return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }
+function stars(r) {
+  if (!r) return "";
+  var s = "";
+  for (var i = 1; i <= Math.floor(r); i++) s += "\u2605";
+  if (r % 1) s += "\u00bd";
+  return s;
+}
+function today() {
+  var d = new Date();
+  return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2);
+}
+function rowOf(r) {
+  return [r.id, r.date, r.title, r.year || "", r.rating || "", r.review, r.tags, r.rewatch ? "Yes" : ""].map(csvCell).join(",");
+}
+function unsavedCsv() {
+  return local.filter(function (l) { return !l.committed; }).map(rowOf).join("\n");
+}
+
+/* ---- GitHub saving ---- */
+function b64enc(str) {
+  var bytes = new TextEncoder().encode(str), bin = "";
+  bytes.forEach(function (b) { bin += String.fromCharCode(b); });
+  return btoa(bin);
+}
+function b64dec(b64) {
+  var bin = atob(b64.replace(/\n/g, "")), bytes = new Uint8Array(bin.length);
+  for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder().decode(bytes);
+}
+function ghFetch(method, body) {
+  var url = "https://api.github.com/repos/" + OWNER + "/" + REPO + "/contents/" + FILE + (method === "GET" ? "?ref=" + BRANCH : "");
+  return fetch(url, {
+    method: method,
+    headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" },
+    body: body ? JSON.stringify(body) : undefined
+  });
+}
+function httpMsg(status) {
+  if (status === 401) return "GitHub rejected the token (expired or mistyped).";
+  if (status === 403 || status === 404) return "The token can't write to this repo (it needs Contents: Read and write).";
+  return "GitHub returned error " + status + ".";
+}
+async function commitRow(line, retried) {
+  var res = await ghFetch("GET"), sha, text = "";
+  if (res.status === 200) { var j = await res.json(); sha = j.sha; text = b64dec(j.content); }
+  else if (res.status !== 404) throw new Error(httpMsg(res.status));
+  if (!text.trim()) text = HEADER + "\n";
+  if (text.slice(-1) !== "\n") text += "\n";
+  text += line + "\n";
+  var body = { message: "Add review via site", content: b64enc(text), branch: BRANCH };
+  if (sha) body.sha = sha;
+  var put = await ghFetch("PUT", body);
+  if ((put.status === 409 || put.status === 422) && !retried) return commitRow(line, true);
+  if (!put.ok) throw new Error(httpMsg(put.status));
+}
+function refreshTokenUI() { $("tok_off").hidden = !!token; $("tok_on").hidden = !token; }
+
+/* ---- list ---- */
+function render() {
+  var q = $("q").value.toLowerCase(), sort = $("sort").value;
+  var have = {};
+  reviews.forEach(function (r) { have[r.id] = true; });
+  var pending = local.filter(function (l) { return !have[l.id]; });
+  var list = pending.concat(reviews).filter(function (r) {
+    return (r.title + " " + r.review + " " + r.tags).toLowerCase().indexOf(q) !== -1;
+  });
+  list.sort(function (a, b) {
+    if (sort === "title") return a.title.localeCompare(b.title);
+    if (sort === "rating") return (b.rating || 0) - (a.rating || 0);
+    return a.date < b.date ? 1 : a.date > b.date ? -1 : 0;
+  });
+  $("count").textContent = list.length + " reviews";
+  $("list").innerHTML = list.map(function (r) {
+    return '<div id="' + esc(r.id) + '"><h3>' + esc(r.title) + (r.year ? " (" + esc(r.year) + ")" : "") + "</h3>" +
+      "<p>" + stars(r.rating) + (r.rating ? " " : "") + esc(r.date) + (r.rewatch ? " &middot; rewatch" : "") +
+      (r.tags ? " &middot; " + esc(r.tags) : "") +
+      (r.url ? ' &middot; <a href="' + esc(r.url) + '">Letterboxd</a>' : "") +
+      (r.local ? " &middot; <small>(on this device)</small>" : "") + "</p>" +
+      "<p>" + esc(r.review).replace(/\n/g, "<br>") + "</p><hr></div>";
+  }).join("");
+  if (location.hash && $(location.hash.slice(1))) $(location.hash.slice(1)).scrollIntoView();
+}
+
+/* ---- events ---- */
+$("q").addEventListener("input", render);
+$("sort").addEventListener("change", render);
+$("addbtn").addEventListener("click", function () {
+  $("addbox").hidden = !$("addbox").hidden;
+  if (!$("r_date").value) $("r_date").value = today();
+  $("r_csv").value = unsavedCsv();
+  refreshTokenUI();
+});
+$("t_save").addEventListener("click", function () {
+  var t = $("t_in").value.trim();
+  if (!t) return;
+  token = t;
+  try { localStorage.setItem("ghToken", token); } catch (e) {}
+  $("t_in").value = "";
+  refreshTokenUI();
+});
+$("t_clear").addEventListener("click", function () {
+  token = "";
+  try { localStorage.removeItem("ghToken"); } catch (e) {}
+  refreshTokenUI();
+});
+$("r_title").addEventListener("change", function () {  // fill in the year when the title is unique
+  var k = normT($("r_title").value);
+  var hits = movies.filter(function (m) { return normT(m.title) === k && m.year; });
+  if (hits.length === 1 && !$("r_year").value) $("r_year").value = hits[0].year;
+});
+$("r_clear").addEventListener("click", function () {
+  local = local.filter(function (l) { return l.committed; });
+  saveLocal(); $("r_csv").value = ""; render();
+});
+$("r_save").addEventListener("click", async function () {
+  var title = $("r_title").value.trim(), text = $("r_text").value.trim();
+  var status = $("r_status");
+  if (!title) { status.textContent = "Add a title first."; return; }
+  if (!text && !$("r_rating").value) { status.textContent = "Add a rating or some review text."; return; }
+  var entry = {
+    id: "my-" + Date.now().toString(36), date: $("r_date").value || today(), title: title,
+    year: parseInt($("r_year").value, 10) || null, rating: parseFloat($("r_rating").value) || null,
+    review: text, tags: $("r_tags").value.trim(), rewatch: $("r_rewatch").checked,
+    url: "", local: true, committed: false
+  };
+  local.push(entry);
+  saveLocal();
+  ["r_title", "r_year", "r_tags", "r_text"].forEach(function (id) { $(id).value = ""; });
+  $("r_rating").value = ""; $("r_rewatch").checked = false;
+  render();
+  if (!token) {
+    status.textContent = "Added on this device only. Add a token below to save it to GitHub.";
+    $("r_csv").value = unsavedCsv();
+    return;
+  }
+  status.textContent = "Saving to GitHub...";
+  try {
+    await commitRow(rowOf(entry));
+    entry.committed = true;
+    saveLocal();
+    status.textContent = "Saved to data/my-reviews.csv. The site finishes updating in a minute or two.";
+  } catch (e) {
+    status.textContent = "Could not save to GitHub: " + e.message + " It is still shown on this device.";
+  }
+  $("r_csv").value = unsavedCsv();
+});
+
+fetch("reviews.json").then(function (r) { return r.json(); }).then(function (data) {
+  reviews = data;
+  var have = {};
+  reviews.forEach(function (r) { have[r.id] = true; });
+  local = local.filter(function (l) { return !(l.committed && have[l.id]); });  // built into the site now
+  saveLocal();
+  render();
+});
+fetch("movies.json").then(function (r) { return r.json(); }).then(function (data) {
+  movies = data;
+  var seen = {}, html = "";
+  data.forEach(function (m) {
+    if (!seen[m.title]) { seen[m.title] = true; html += '<option value="' + esc(m.title) + '">'; }
+  });
+  $("titles").innerHTML = html;
+});
+</script>
 </body>
 </html>

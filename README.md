@@ -23,6 +23,11 @@ Every push to `data/` rebuilds `docs/movies.json`. It also rebuilds every Monday
 ## Reviews
 Put `reviews.csv` and `ratings.csv` from your Letterboxd export into `data/` as `letterboxd-reviews.csv` and `letterboxd-ratings.csv`. The build creates `docs/reviews.json`, shown on `reviews.html`, and adds a "my review" link next to matching titles.
 
+Titles you add without a year get their year, director, genres and rating filled in on the next rebuild, from IMDb's public datasets.
+
+## Adding reviews from the site
+On `reviews.html`, click "Add a review". With a GitHub token saved (same one as for adding titles), the review is committed to `data/my-reviews.csv` and the site rebuilds. To edit or delete a review later, edit that file on GitHub. Titles you review are marked watched.
+
 ## Optional: automatic IMDb refresh
 On your IMDb watchlist page, find the Export button and copy its link. Add it in
 Settings → Secrets and variables → Actions → Variables as `IMDB_EXPORT_URL`.
