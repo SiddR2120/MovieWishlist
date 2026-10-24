@@ -87,8 +87,32 @@ for mid, e in (json.loads(ep.read_text()) if ep.exists() else {}).items():
             if v == mid:
                 index[k] = tt
     else:
+        if not m["year"] and e.get("year"):
+            m["year"] = e["year"]
+            index[(norm(m["title"]), m["year"])] = mid
         m.update(imdb="https://www.imdb.com/title/%s/" % tt, rating=e["rating"],
                  genres=e["genres"], runtime=e["runtime"], director=e.get("director", ""))
+
+# Merge rows that ended up on the same IMDb page (e.g. a hand-added title that is also on Letterboxd)
+groups = {}
+for mid, m in movies.items():
+    t = re.search(r"tt\d+", m["imdb"] or "")
+    if t:
+        groups.setdefault(t.group(0), []).append(mid)
+for ids in groups.values():
+    if len(ids) < 2:
+        continue
+    ids.sort(key=lambda i: 0 if i.startswith("tt") else 1 if i.startswith("lb-") else 2)
+    keep = movies[ids[0]]
+    for dup_id in ids[1:]:
+        d = movies.pop(dup_id)
+        for k in ("letterboxd", "wikipedia", "note", "review"):
+            keep[k] = keep[k] or d[k]
+        keep["watched"] = keep["watched"] or d["watched"]
+        keep["added"] = min(filter(None, [keep["added"], d["added"]]), default="")
+        for k, v in list(index.items()):
+            if v == dup_id:
+                index[k] = ids[0]
 
 # Wikipedia (one article title per line)
 wp = D / "wikipedia.txt"
@@ -137,6 +161,43 @@ for r in read_csv("letterboxd-reviews.csv"):
         "date": r.get("Watched Date") or r["Date"], "rewatch": bool(r.get("Rewatch")),
         "review": r.get("Review") or "", "tags": r.get("Tags") or "",
         "url": r["Letterboxd URI"], "on_list": bool(mid),
+    })
+# Reviews written on the site: data/my-reviews.csv (Title,Year,Rating,Date,Review,Tags)
+for i, r in enumerate(read_csv("my-reviews.csv")):
+    if not (r.get("Title") or "").strip():
+        continue
+    title, year = r["Title"].strip(), year_of(r.get("Year"))
+    mid = find(title, year)
+    rid = "m-%s%s-%s" % (norm(title), year or "", (r.get("Date") or "").replace("-", ""))
+    try:
+        rating = float(r["Rating"]) if r.get("Rating") else None
+    except ValueError:
+        rating = None
+    if mid:
+        movies[mid]["review"] = rid
+        movies[mid]["watched"] = True  # reviewed means watched
+    reviews.append({
+        "id": rid, "title": title, "year": year, "rating": rating,
+        "date": r.get("Date") or "", "rewatch": False, "review": r.get("Review") or "",
+        "tags": r.get("Tags") or "", "url": "", "on_list": bool(mid),
+    })
+# Reviews added from the site: data/my-reviews.csv
+for r in read_csv("my-reviews.csv"):
+    if not (r.get("Name") or "").strip():
+        continue
+    year = year_of(r.get("Year"))
+    code = r.get("ID") or "my-" + norm(r["Name"]) + (r.get("Date") or "")
+    mid = find(r["Name"], year)
+    if mid:
+        movies[mid]["review"] = code
+        if mid not in notes:
+            movies[mid]["watched"] = True
+    reviews.append({
+        "id": code, "title": r["Name"].strip(), "year": year,
+        "rating": float(r["Rating"]) if r.get("Rating") else None,
+        "date": r.get("Date") or "", "rewatch": bool(r.get("Rewatch")),
+        "review": (r.get("Review") or "").replace("\r\n", "\n"), "tags": r.get("Tags") or "",
+        "url": "", "on_list": bool(mid),
     })
 reviews.sort(key=lambda x: x["date"], reverse=True)
 Path("docs/reviews.json").write_text(json.dumps(reviews, ensure_ascii=False), encoding="utf-8")
