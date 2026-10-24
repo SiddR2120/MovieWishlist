@@ -4,7 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Movies to Watch</title>
-<link rel="stylesheet" href="style.css">
+<style>
+body { margin: 1em auto; max-width: 70em; padding: 0 1em; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: 0.3em 0.6em; border-bottom: 1px solid #ccc; vertical-align: top; }
+th { border-bottom: 2px solid #000; }
+input[type=search] { width: 16em; }
+th[data-key] { cursor: pointer; user-select: none; }
+th[data-key]:hover { text-decoration: underline; }
+</style>
 </head>
 <body>
 <h1>Movies to Watch</h1>
@@ -43,6 +51,123 @@
   <thead><tr><th data-key="title">Title<span></span></th><th data-key="year">Year<span></span></th><th data-key="director">Director<span></span></th><th data-key="genres">Genres<span></span></th><th data-key="rating">Rating<span></span></th><th>Links</th></tr></thead>
   <tbody id="rows"></tbody>
 </table>
-<script src="app.js"></script>
+<script>
+var movies = [];
+var local = [];
+var sortKey = "added", sortDir = "desc";
+try { local = JSON.parse(localStorage.getItem("extraTitles") || "[]"); } catch (e) { local = []; }
+function normT(s) { return String(s).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, ""); }
+function saveLocal() { try { localStorage.setItem("extraTitles", JSON.stringify(local)); } catch (e) {} }
+function csvCell(s) { s = String(s || ""); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }
+function allMovies() {
+  var seen = {};
+  movies.forEach(function (m) { seen[normT(m.title) + (m.year || "")] = true; });
+  var extra = local.filter(function (l) { return !seen[normT(l.title) + (l.year || "")]; })
+    .map(function (l) {
+      return { id: "local", title: l.title, year: l.year, type: "Movie", genres: "", director: "", rating: null,
+        added: "9999", imdb: "", letterboxd: "", wikipedia: "", watched: false, note: l.note || "", review: "", local: true };
+    });
+  return extra.concat(movies);
+}
+var $ = function (id) { return document.getElementById(id); };
+
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+  });
+}
+
+function link(url, label) {
+  return url ? '<a href="' + esc(url) + '">' + label + "</a>" : "";
+}
+
+function render() {
+  var q = $("q").value.toLowerCase();
+  var type = $("type").value, source = $("source").value;
+  var hide = $("hide").checked;
+
+  var list = allMovies().filter(function (m) {
+    if (hide && m.watched) return false;
+    if (type === "Movie" && m.type !== "Movie" && m.type !== "TV Movie") return false;
+    if (type === "TV" && m.type.indexOf("TV") !== 0) return false;
+    if (source && !m[source]) return false;
+    var hay = (m.title + " " + m.director + " " + m.genres).toLowerCase();
+    return hay.indexOf(q) !== -1;
+  });
+
+  var numeric = sortKey === "year" || sortKey === "rating";
+  list.sort(function (a, b) {
+    var x = a[sortKey], y = b[sortKey];
+    var xe = x == null || x === "", ye = y == null || y === "";
+    if (xe || ye) return xe && ye ? 0 : xe ? 1 : -1;  // blanks always last
+    var c;
+    if (numeric) c = x - y;
+    else if (sortKey === "added") c = x < y ? -1 : x > y ? 1 : 0;
+    else c = String(x).toLowerCase().localeCompare(String(y).toLowerCase());
+    if (c === 0) return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
+    return sortDir === "asc" ? c : -c;
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll("th[data-key]"), function (th) {
+    th.lastChild.textContent = th.getAttribute("data-key") === sortKey ? (sortDir === "asc" ? " \u25B2" : " \u25BC") : "";
+  });
+
+  $("count").textContent = list.length + " titles";
+  $("rows").innerHTML = list.map(function (m) {
+    var q2 = encodeURIComponent(m.title + (m.year ? " " + m.year : ""));
+    var links = [
+      m.imdb ? link(m.imdb, "IMDb") : link("https://www.imdb.com/find/?s=tt&q=" + q2, "IMDb search"),
+      link(m.letterboxd, "Letterboxd"),
+      m.wikipedia ? link(m.wikipedia, "Wikipedia") : link("https://en.wikipedia.org/w/index.php?search=" + q2 + "+film", "Wikipedia search")
+    ]
+      .filter(Boolean).join(" · ");
+    return "<tr><td>" + esc(m.title) + (m.local ? " <small>(on this device)</small>" : "") +
+      (m.review ? ' <small><a href="reviews.html#' + esc(m.review) + '">my review</a></small>' : "") + (m.note ? "<br><small>" + esc(m.note) + "</small>" : "") +
+      "</td><td>" + esc(m.year) + "</td><td>" + esc(m.director) + "</td><td>" + esc(m.genres) +
+      "</td><td>" + esc(m.rating) + "</td><td>" + links + "</td></tr>";
+  }).join("");
+}
+
+["q", "type", "source", "hide"].forEach(function (id) {
+  $(id).addEventListener("input", render);
+  $(id).addEventListener("change", render);
+});
+
+Array.prototype.forEach.call(document.querySelectorAll("th[data-key]"), function (th) {
+  th.addEventListener("click", function () {
+    var key = th.getAttribute("data-key");
+    if (key === sortKey) {
+      sortDir = sortDir === "asc" ? "desc" : "asc";
+    } else {
+      sortKey = key;
+      sortDir = (key === "year" || key === "rating") ? "desc" : "asc";  // text A-Z, numbers high-low first
+    }
+    render();
+  });
+});
+$("newest").addEventListener("click", function () { sortKey = "added"; sortDir = "desc"; render(); });
+
+$("addbtn").addEventListener("click", function () {
+  $("addbox").hidden = !$("addbox").hidden;
+  $("a_csv").value = local.map(function (l) { return [csvCell(l.title), l.year || "", csvCell(l.note)].join(","); }).join("\n");
+});
+$("a_save").addEventListener("click", function () {
+  var t = $("a_title").value.trim();
+  if (!t) return;
+  local.push({ title: t, year: parseInt($("a_year").value, 10) || null, note: $("a_note").value.trim() });
+  saveLocal();
+  $("a_title").value = ""; $("a_year").value = ""; $("a_note").value = "";
+  $("a_csv").value = local.map(function (l) { return [csvCell(l.title), l.year || "", csvCell(l.note)].join(","); }).join("\n");
+  render();
+});
+$("a_clear").addEventListener("click", function () {
+  local = []; saveLocal(); $("a_csv").value = ""; render();
+});
+
+fetch("movies.json").then(function (r) { return r.json(); }).then(function (data) {
+  movies = data;
+  render();
+});
+</script>
 </body>
 </html>
