@@ -40,9 +40,13 @@ th[data-key]:hover { text-decoration: underline; }
     <input id="a_note" placeholder="Note (optional)">
     <button id="a_save" type="button">Add</button>
   </p>
-  <p><small>This saves in this browser only. To make titles permanent for everyone, copy these lines into
-  <a href="https://github.com/SiddR2120/Movie-web/edit/main/data/extra.csv">data/extra.csv</a> on GitHub and commit.</small></p>
-  <p><textarea id="a_csv" rows="4" cols="60" readonly></textarea><br>
+  <p id="a_status"></p>
+  <p id="tok_off"><small>To save titles into data/extra.csv automatically, paste a GitHub token for this repo:
+  <input id="t_in" type="password" placeholder="GitHub token" size="30">
+  <button id="t_save" type="button">Save token</button></small></p>
+  <p id="tok_on" hidden><small>Saving to GitHub is on. <button id="t_clear" type="button">Remove token</button></small></p>
+  <p><small>Titles not yet saved to GitHub (copy into <a href="https://github.com/SiddR2120/MovieWishlist/edit/main/data/extra.csv">data/extra.csv</a> if needed):</small><br>
+  <textarea id="a_csv" rows="3" cols="60" readonly></textarea><br>
   <button id="a_clear" type="button">Clear local additions</button></p>
 </div>
 <p id="count"></p>
@@ -52,6 +56,9 @@ th[data-key]:hover { text-decoration: underline; }
   <tbody id="rows"></tbody>
 </table>
 <script>
+var OWNER = "SiddR2120", REPO = "MovieWishlist", FILE = "data/extra.csv", BRANCH = "main";
+var token = "";
+try { token = localStorage.getItem("ghToken") || ""; } catch (e) { token = ""; }
 var movies = [];
 var local = [];
 var sortKey = "added", sortDir = "desc";
@@ -59,6 +66,52 @@ try { local = JSON.parse(localStorage.getItem("extraTitles") || "[]"); } catch (
 function normT(s) { return String(s).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, ""); }
 function saveLocal() { try { localStorage.setItem("extraTitles", JSON.stringify(local)); } catch (e) {} }
 function csvCell(s) { s = String(s || ""); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }
+function b64enc(str) {
+  var bytes = new TextEncoder().encode(str), bin = "";
+  bytes.forEach(function (b) { bin += String.fromCharCode(b); });
+  return btoa(bin);
+}
+function b64dec(b64) {
+  var bin = atob(b64.replace(/\n/g, "")), bytes = new Uint8Array(bin.length);
+  for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder().decode(bytes);
+}
+function ghFetch(method, body) {
+  var url = "https://api.github.com/repos/" + OWNER + "/" + REPO + "/contents/" + FILE + (method === "GET" ? "?ref=" + BRANCH : "");
+  return fetch(url, {
+    method: method,
+    headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" },
+    body: body ? JSON.stringify(body) : undefined
+  });
+}
+function httpMsg(status) {
+  if (status === 401) return "GitHub rejected the token (expired or mistyped).";
+  if (status === 403 || status === 404) return "The token can't write to this repo (it needs Contents: Read and write).";
+  return "GitHub returned error " + status + ".";
+}
+async function commitLine(line, retried) {
+  var res = await ghFetch("GET"), sha, text = "";
+  if (res.status === 200) { var j = await res.json(); sha = j.sha; text = b64dec(j.content); }
+  else if (res.status !== 404) throw new Error(httpMsg(res.status));
+  if (!text.trim()) text = "Title,Year,Note\n";
+  if (text.slice(-1) !== "\n") text += "\n";
+  text += line + "\n";
+  var body = { message: "Add title via site", content: b64enc(text), branch: BRANCH };
+  if (sha) body.sha = sha;
+  var put = await ghFetch("PUT", body);
+  if ((put.status === 409 || put.status === 422) && !retried) return commitLine(line, true);
+  if (!put.ok) throw new Error(httpMsg(put.status));
+}
+function csvText() {
+  return local.filter(function (l) { return !l.committed; }).map(function (l) {
+    return [csvCell(l.title), l.year || "", csvCell(l.note)].join(",");
+  }).join("\n");
+}
+function refreshTokenUI() {
+  $("tok_off").hidden = !!token;
+  $("tok_on").hidden = !token;
+}
+
 function allMovies() {
   var seen = {};
   movies.forEach(function (m) { seen[normT(m.title) + (m.year || "")] = true; });
@@ -149,16 +202,46 @@ $("newest").addEventListener("click", function () { sortKey = "added"; sortDir =
 
 $("addbtn").addEventListener("click", function () {
   $("addbox").hidden = !$("addbox").hidden;
-  $("a_csv").value = local.map(function (l) { return [csvCell(l.title), l.year || "", csvCell(l.note)].join(","); }).join("\n");
+  $("a_csv").value = csvText();
+  refreshTokenUI();
 });
-$("a_save").addEventListener("click", function () {
+$("t_save").addEventListener("click", function () {
+  var t = $("t_in").value.trim();
+  if (!t) return;
+  token = t;
+  try { localStorage.setItem("ghToken", token); } catch (e) {}
+  $("t_in").value = "";
+  refreshTokenUI();
+});
+$("t_clear").addEventListener("click", function () {
+  token = "";
+  try { localStorage.removeItem("ghToken"); } catch (e) {}
+  refreshTokenUI();
+});
+$("a_save").addEventListener("click", async function () {
   var t = $("a_title").value.trim();
   if (!t) return;
-  local.push({ title: t, year: parseInt($("a_year").value, 10) || null, note: $("a_note").value.trim() });
+  var entry = { title: t, year: parseInt($("a_year").value, 10) || null, note: $("a_note").value.trim(), committed: false };
+  local.push(entry);
   saveLocal();
   $("a_title").value = ""; $("a_year").value = ""; $("a_note").value = "";
-  $("a_csv").value = local.map(function (l) { return [csvCell(l.title), l.year || "", csvCell(l.note)].join(","); }).join("\n");
   render();
+  var status = $("a_status");
+  if (!token) {
+    status.textContent = "Added on this device only. Add a token below to save it to GitHub.";
+    $("a_csv").value = csvText();
+    return;
+  }
+  status.textContent = "Saving to GitHub...";
+  try {
+    await commitLine([csvCell(entry.title), entry.year || "", csvCell(entry.note)].join(","));
+    entry.committed = true;
+    saveLocal();
+    status.textContent = "Saved to data/extra.csv. The site finishes updating in a minute or two.";
+  } catch (e) {
+    status.textContent = "Could not save to GitHub: " + e.message + " It is still shown on this device.";
+  }
+  $("a_csv").value = csvText();
 });
 $("a_clear").addEventListener("click", function () {
   local = []; saveLocal(); $("a_csv").value = ""; render();
@@ -166,6 +249,10 @@ $("a_clear").addEventListener("click", function () {
 
 fetch("movies.json").then(function (r) { return r.json(); }).then(function (data) {
   movies = data;
+  var have = {};
+  movies.forEach(function (m) { have[normT(m.title) + (m.year || "")] = true; });
+  local = local.filter(function (l) { return !(l.committed && have[normT(l.title) + (l.year || "")]); });
+  saveLocal();
   render();
 });
 </script>
