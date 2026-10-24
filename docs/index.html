@@ -76,8 +76,8 @@ function b64dec(b64) {
   for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
   return new TextDecoder().decode(bytes);
 }
-function ghFetch(method, body) {
-  var url = "https://api.github.com/repos/" + OWNER + "/" + REPO + "/contents/" + FILE + (method === "GET" ? "?ref=" + BRANCH : "");
+function ghFetch(path, method, body) {
+  var url = "https://api.github.com/repos/" + OWNER + "/" + REPO + "/contents/" + path + (method === "GET" ? "?ref=" + BRANCH : "");
   return fetch(url, {
     method: method,
     headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" },
@@ -89,18 +89,34 @@ function httpMsg(status) {
   if (status === 403 || status === 404) return "The token can't write to this repo (it needs Contents: Read and write).";
   return "GitHub returned error " + status + ".";
 }
-async function commitLine(line, retried) {
-  var res = await ghFetch("GET"), sha, text = "";
-  if (res.status === 200) { var j = await res.json(); sha = j.sha; text = b64dec(j.content); }
-  else if (res.status !== 404) throw new Error(httpMsg(res.status));
-  if (!text.trim()) text = "Title,Year,Note\n";
-  if (text.slice(-1) !== "\n") text += "\n";
-  text += line + "\n";
-  var body = { message: "Add title via site", content: b64enc(text), branch: BRANCH };
-  if (sha) body.sha = sha;
-  var put = await ghFetch("PUT", body);
-  if ((put.status === 409 || put.status === 422) && !retried) return commitLine(line, true);
-  if (!put.ok) throw new Error(httpMsg(put.status));
+// Keeps the last text and sha of each file, so repeat saves skip the read step.
+var fileCache = {};
+async function readFile(path, force) {
+  if (!force && fileCache[path]) return fileCache[path];
+  var res = await ghFetch(path, "GET");
+  if (res.status === 404) return { text: "", sha: null };
+  if (!res.ok) throw new Error(httpMsg(res.status));
+  var j = await res.json();
+  return { text: b64dec(j.content), sha: j.sha };
+}
+async function writeFile(path, change, retried) {
+  var f = await readFile(path, retried);
+  var text = change(f.text);
+  var body = { message: "Update " + path + " via site", content: b64enc(text), branch: BRANCH };
+  if (f.sha) body.sha = f.sha;
+  var put = await ghFetch(path, "PUT", body);
+  if ((put.status === 409 || put.status === 422) && !retried) return writeFile(path, change, true);
+  if (!put.ok) { delete fileCache[path]; throw new Error(httpMsg(put.status)); }
+  var j = await put.json();
+  if (j && j.content && j.content.sha) fileCache[path] = { text: text, sha: j.content.sha };
+  else delete fileCache[path];
+}
+function commitLine(line) {
+  return writeFile("data/extra.csv", function (t) {
+    if (!t.trim()) t = "Title,Year,Note\n";
+    if (t.slice(-1) !== "\n") t += "\n";
+    return t + line + "\n";
+  });
 }
 function csvText() {
   return local.filter(function (l) { return !l.committed; }).map(function (l) {
@@ -221,7 +237,9 @@ $("t_clear").addEventListener("click", function () {
 $("a_save").addEventListener("click", async function () {
   var t = $("a_title").value.trim();
   if (!t) return;
-  var entry = { title: t, year: parseInt($("a_year").value, 10) || null, note: $("a_note").value.trim(), committed: false };
+  var yr = $("a_year").value.trim();
+  if (yr && !/^\d{4}$/.test(yr)) { $("a_status").textContent = "Year should be 4 digits, like 1995."; return; }
+  var entry = { title: t, year: yr ? parseInt(yr, 10) : null, note: $("a_note").value.trim(), committed: false };
   local.push(entry);
   saveLocal();
   $("a_title").value = ""; $("a_year").value = ""; $("a_note").value = "";
@@ -237,7 +255,7 @@ $("a_save").addEventListener("click", async function () {
     await commitLine([csvCell(entry.title), entry.year || "", csvCell(entry.note)].join(","));
     entry.committed = true;
     saveLocal();
-    status.textContent = "Saved to data/extra.csv. The site finishes updating in a minute or two.";
+    status.textContent = "Saved to data/extra.csv. Year, director, genres and rating fill in when the site rebuilds (a few minutes).";
   } catch (e) {
     status.textContent = "Could not save to GitHub: " + e.message + " It is still shown on this device.";
   }
