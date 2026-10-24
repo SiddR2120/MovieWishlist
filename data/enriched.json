@@ -195,13 +195,6 @@
   "runtime": 90,
   "director": "Louis Malle"
  },
- "lb-29l6": {
-  "imdb_id": "tt0052572",
-  "rating": 8.4,
-  "genres": "Drama",
-  "runtime": 105,
-  "director": "Satyajit Ray"
- },
  "lb-2lkk": {
   "imdb_id": "tt0053134",
   "rating": 7.8,
@@ -3309,13 +3302,6 @@
   "genres": "Biography, Comedy, Drama",
   "runtime": 115,
   "director": "Lin-Manuel Miranda"
- },
- "lb-jLP8": {
-  "imdb_id": "tt8847712",
-  "rating": 7.1,
-  "genres": "Comedy, Drama, Romance",
-  "runtime": 107,
-  "director": "Wes Anderson"
  },
  "lb-jOF6": {
   "imdb_id": "tt8858104",
