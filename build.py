@@ -88,7 +88,7 @@ for mid, e in (json.loads(ep.read_text()) if ep.exists() else {}).items():
                 index[k] = tt
     else:
         m.update(imdb="https://www.imdb.com/title/%s/" % tt, rating=e["rating"],
-                 genres=e["genres"], runtime=e["runtime"])
+                 genres=e["genres"], runtime=e["runtime"], director=e.get("director", ""))
 
 # Wikipedia (one article title per line)
 wp = D / "wikipedia.txt"

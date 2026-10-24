@@ -54,5 +54,20 @@ for mid, rs in cands.items():
         "genres": best["genres"].replace(",", ", ") if best["genres"] != "\\N" else "",
         "runtime": int(best["runtimeMinutes"]) if best["runtimeMinutes"] != "\\N" else None,
     }
+# Directors: title.crew gives name IDs, name.basics turns them into names
+want = {v["imdb_id"] for v in out.values()}
+crew = {}
+for r in rows("title.crew.tsv.gz"):
+    if r["tconst"] in want and r["directors"] != "\\N":
+        crew[r["tconst"]] = r["directors"].split(",")[:3]
+need = {n for ns in crew.values() for n in ns}
+names = {}
+for r in rows("name.basics.tsv.gz"):
+    if r["nconst"] in need:
+        names[r["nconst"]] = r["primaryName"]
+for v in out.values():
+    v["director"] = ", ".join(names[n] for n in crew.get(v["imdb_id"], []) if n in names)
+print(f"directors found for {sum(1 for v in out.values() if v['director'])} films")
+
 Path("data/enriched.json").write_text(json.dumps(out, indent=1), encoding="utf-8")
 print(f"matched {len(out)} of {len(todo)}")
