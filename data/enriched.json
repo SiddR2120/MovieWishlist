@@ -3,2856 +3,3346 @@
   "imdb_id": "tt0015324",
   "rating": 8.1,
   "genres": "Action, Comedy, Romance",
-  "runtime": 45
+  "runtime": 45,
+  "director": "Buster Keaton"
  },
  "lb-29N0": {
   "imdb_id": "tt0018217",
   "rating": 7.4,
   "genres": "Drama, History",
-  "runtime": 95
+  "runtime": 95,
+  "director": "Grigoriy Aleksandrov, Sergei Eisenstein"
  },
  "lb-2b2g": {
   "imdb_id": "tt0020629",
   "rating": 8.1,
   "genres": "Drama, War",
-  "runtime": 152
+  "runtime": 152,
+  "director": "Lewis Milestone"
  },
  "lb-2aPc": {
   "imdb_id": "tt0026138",
   "rating": 7.8,
   "genres": "Drama, Horror, Sci-Fi",
-  "runtime": 75
+  "runtime": 75,
+  "director": "James Whale"
  },
  "lb-29HG": {
   "imdb_id": "tt0032455",
   "rating": 7.7,
   "genres": "Animation, Family, Fantasy",
-  "runtime": 124
+  "runtime": 124,
+  "director": "James Algar, Samuel Armstrong, Ford Beebe Jr."
  },
  "lb-29ic": {
   "imdb_id": "tt0032553",
   "rating": 8.4,
   "genres": "Comedy, Drama, War",
-  "runtime": 125
+  "runtime": 125,
+  "director": "Charles Chaplin"
  },
  "lb-29a8": {
   "imdb_id": "tt0032904",
   "rating": 7.8,
   "genres": "Comedy, Romance",
-  "runtime": 112
+  "runtime": 112,
+  "director": "George Cukor"
  },
  "lb-1PQI": {
   "imdb_id": "tt0037635",
   "rating": 7.5,
   "genres": "Drama, Fantasy, Horror",
-  "runtime": 95
+  "runtime": 95,
+  "director": "Alberto Cavalcanti, Charles Crichton, Basil Dearden"
  },
  "lb-26H4": {
   "imdb_id": "tt0037674",
   "rating": 8.3,
   "genres": "Drama, Romance",
-  "runtime": 189
+  "runtime": 189,
+  "director": "Marcel Carn\u00e9"
  },
  "lb-1g4Y": {
   "imdb_id": "tt0040919",
   "rating": 7.4,
   "genres": "Comedy, Music, Romance",
-  "runtime": 105
+  "runtime": 105,
+  "director": "Preston Sturges"
  },
  "lb-294E": {
   "imdb_id": "tt0041959",
   "rating": 8.1,
   "genres": "Drama, Film-Noir, Mystery",
-  "runtime": 104
+  "runtime": 104,
+  "director": "Carol Reed"
  },
  "lb-2WlO": {
   "imdb_id": "tt0042841",
   "rating": 6.1,
   "genres": "Drama, Romance",
-  "runtime": 88
+  "runtime": 88,
+  "director": "Bretaigne Windust"
  },
  "lb-29Mc": {
   "imdb_id": "tt0044081",
   "rating": 7.9,
   "genres": "Drama",
-  "runtime": 122
+  "runtime": 122,
+  "director": "Elia Kazan"
  },
  "lb-251c": {
   "imdb_id": "tt0044741",
   "rating": 8.3,
   "genres": "Drama",
-  "runtime": 143
+  "runtime": 143,
+  "director": "Akira Kurosawa"
  },
  "lb-3yAM": {
   "imdb_id": "tt0046712",
   "rating": 7.0,
   "genres": "Drama, History, War",
-  "runtime": 91
+  "runtime": 91,
+  "director": "Josef von Sternberg"
  },
  "lb-25HW": {
   "imdb_id": "tt0048424",
   "rating": 7.9,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 92
+  "runtime": 92,
+  "director": "Charles Laughton"
  },
  "lb-22yC": {
   "imdb_id": "tt0048473",
   "rating": 8.2,
   "genres": "Drama, History",
-  "runtime": 125
+  "runtime": 125,
+  "director": "Satyajit Ray"
  },
  "lb-25HC": {
   "imdb_id": "tt0049730",
   "rating": 7.8,
   "genres": "Adventure, Western",
-  "runtime": 119
+  "runtime": 119,
+  "director": "John Ford"
  },
  "lb-29wo": {
   "imdb_id": "tt0050212",
   "rating": 8.1,
   "genres": "Adventure, Drama, War",
-  "runtime": 161
+  "runtime": 161,
+  "director": "David Lean"
  },
  "lb-251w": {
   "imdb_id": "tt0050613",
   "rating": 8.0,
   "genres": "Drama",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Akira Kurosawa"
  },
  "lb-1woA": {
   "imdb_id": "tt0050766",
   "rating": 7.4,
   "genres": "Fantasy, Horror, Mystery",
-  "runtime": 82
+  "runtime": 82,
+  "director": "Jacques Tourneur"
  },
  "lb-1F7e": {
   "imdb_id": "tt0050783",
   "rating": 8.1,
   "genres": "Drama",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Federico Fellini"
  },
  "lb-29aW": {
   "imdb_id": "tt0051036",
   "rating": 8.0,
   "genres": "Drama, Film-Noir",
-  "runtime": 96
+  "runtime": 96,
+  "director": "Alexander Mackendrick"
  },
  "lb-295M": {
   "imdb_id": "tt0051808",
   "rating": 8.0,
   "genres": "Adventure, Drama",
-  "runtime": 126
+  "runtime": 126,
+  "director": "Akira Kurosawa"
  },
  "lb-1xwA": {
   "imdb_id": "tt0051866",
   "rating": 7.3,
   "genres": "Crime, Drama, Film-Noir",
-  "runtime": 86
+  "runtime": 86,
+  "director": "Don Siegel"
  },
  "lb-23q0": {
   "imdb_id": "tt0052080",
   "rating": 7.7,
   "genres": "Drama, Romance, War",
-  "runtime": 103
+  "runtime": 103,
+  "director": "Andrzej Wajda"
  },
  "lb-2apI": {
   "imdb_id": "tt0052357",
   "rating": 8.2,
   "genres": "Mystery, Romance, Thriller",
-  "runtime": 128
+  "runtime": 128,
+  "director": "Alfred Hitchcock"
  },
  "lb-26BK": {
   "imdb_id": "tt0052556",
   "rating": 7.1,
   "genres": "Drama, Romance",
-  "runtime": 90
+  "runtime": 90,
+  "director": "Louis Malle"
+ },
+ "lb-29l6": {
+  "imdb_id": "tt0052572",
+  "rating": 8.4,
+  "genres": "Drama",
+  "runtime": 105,
+  "director": "Satyajit Ray"
  },
  "lb-2lkk": {
   "imdb_id": "tt0053134",
   "rating": 7.8,
   "genres": "Comedy, Drama, Family",
-  "runtime": 94
+  "runtime": 94,
+  "director": "Yasujir\u014d Ozu"
  },
  "lb-2aGE": {
   "imdb_id": "tt0053604",
   "rating": 8.3,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 125
+  "runtime": 125,
+  "director": "Billy Wilder"
  },
  "lb-23hs": {
   "imdb_id": "tt0053619",
   "rating": 7.7,
   "genres": "Drama, Mystery, Romance",
-  "runtime": 143
+  "runtime": 143,
+  "director": "Michelangelo Antonioni"
  },
  "lb-29bA": {
   "imdb_id": "tt0054047",
   "rating": 7.7,
   "genres": "Action, Adventure, Drama",
-  "runtime": 128
+  "runtime": 128,
+  "director": "John Sturges"
  },
  "lb-1WrU": {
   "imdb_id": "tt0054189",
   "rating": 7.7,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 118
+  "runtime": 118,
+  "director": "Ren\u00e9 Cl\u00e9ment"
  },
  "lb-1nSw": {
   "imdb_id": "tt0054407",
   "rating": 8.5,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 131
+  "runtime": 131,
+  "director": "Jacques Becker"
  },
  "lb-2aYS": {
   "imdb_id": "tt0054698",
   "rating": 7.5,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 115
+  "runtime": 115,
+  "director": "Blake Edwards"
  },
  "lb-1dIQ": {
   "imdb_id": "tt0055233",
   "rating": 8.8,
   "genres": "Drama, History, War",
-  "runtime": 190
+  "runtime": 190,
+  "director": "Masaki Kobayashi"
  },
  "lb-1SRY": {
   "imdb_id": "tt0055630",
   "rating": 8.2,
   "genres": "Action, Drama, Thriller",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Akira Kurosawa"
  },
  "lb-1SPo": {
   "imdb_id": "tt0056085",
   "rating": 7.1,
   "genres": "Action, Adventure, War",
-  "runtime": 164
+  "runtime": 164,
+  "director": "John Ford, Henry Hathaway, George Marshall"
  },
  "lb-299Y": {
   "imdb_id": "tt0056218",
   "rating": 7.9,
   "genres": "Drama, Thriller",
-  "runtime": 126
+  "runtime": 126,
+  "director": "John Frankenheimer"
  },
  "lb-23O2": {
   "imdb_id": "tt0056923",
   "rating": 7.8,
   "genres": "Comedy, Mystery, Romance",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Stanley Donen"
  },
  "lb-22kA": {
   "imdb_id": "tt0057115",
   "rating": 8.2,
   "genres": "Adventure, Drama, Thriller",
-  "runtime": 172
+  "runtime": 172,
+  "director": "John Sturges"
  },
  "lb-1qoa": {
   "imdb_id": "tt0057603",
   "rating": 7.0,
   "genres": "Horror",
-  "runtime": 97
+  "runtime": 97,
+  "director": "Mario Bava"
  },
  "lb-29SY": {
   "imdb_id": "tt0058150",
   "rating": 7.7,
   "genres": "Action, Adventure, Thriller",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Guy Hamilton"
  },
  "lb-2auo": {
   "imdb_id": "tt0058461",
   "rating": 7.9,
   "genres": "Drama, Western",
-  "runtime": 99
+  "runtime": 99,
+  "director": "Sergio Leone"
  },
  "lb-1hUQ": {
   "imdb_id": "tt0058604",
   "rating": 8.2,
   "genres": "Drama",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Mikheil Kalatozishvili"
  },
  "lb-29eu": {
   "imdb_id": "tt0059578",
   "rating": 8.2,
   "genres": "Drama, Western",
-  "runtime": 132
+  "runtime": 132,
+  "director": "Sergio Leone"
  },
  "lb-2ape": {
   "imdb_id": "tt0060196",
   "rating": 8.8,
   "genres": "Adventure, Drama, Western",
-  "runtime": 178
+  "runtime": 178,
+  "director": "Sergio Leone"
  },
  "lb-1Dbe": {
   "imdb_id": "tt0060955",
   "rating": 7.6,
   "genres": "Sci-Fi, Thriller",
-  "runtime": 106
+  "runtime": 106,
+  "director": "John Frankenheimer"
  },
  "lb-Wb6": {
   "imdb_id": "tt0061138",
   "rating": 7.5,
   "genres": "Drama, Romance",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Claude Lelouch"
  },
  "lb-18Im": {
   "imdb_id": "tt0061722",
   "rating": 8.0,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Mike Nichols"
  },
  "lb-1WLK": {
   "imdb_id": "tt0062136",
   "rating": 7.8,
   "genres": "Comedy",
-  "runtime": 155
+  "runtime": 155,
+  "director": "Jacques Tati"
  },
  "lb-22ZI": {
   "imdb_id": "tt0062229",
   "rating": 8.0,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 101
+  "runtime": 101,
+  "director": "Jean-Pierre Melville"
  },
  "lb-29i2": {
   "imdb_id": "tt0062765",
   "rating": 7.4,
   "genres": "Action, Crime, Thriller",
-  "runtime": 114
+  "runtime": 114,
+  "director": "Peter Yates"
  },
  "lb-22cQ": {
   "imdb_id": "tt0063518",
   "rating": 7.6,
   "genres": "Drama, Romance",
-  "runtime": 138
+  "runtime": 138,
+  "director": "Franco Zeffirelli"
  },
  "lb-29Vy": {
   "imdb_id": "tt0064115",
   "rating": 8.0,
   "genres": "Adventure, Biography, Crime",
-  "runtime": 110
+  "runtime": 110,
+  "director": "George Roy Hill"
  },
  "lb-2az4": {
   "imdb_id": "tt0064116",
   "rating": 8.5,
   "genres": "Drama, Western",
-  "runtime": 145
+  "runtime": 145,
+  "director": "Sergio Leone"
  },
  "lb-25Hi": {
   "imdb_id": "tt0064665",
   "rating": 7.8,
   "genres": "Drama",
-  "runtime": 113
+  "runtime": 113,
+  "director": "John Schlesinger"
  },
  "lb-26pY": {
   "imdb_id": "tt0065234",
   "rating": 8.1,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 127
+  "runtime": 127,
+  "director": "Costa-Gavras"
  },
  "lb-1Tjy": {
   "imdb_id": "tt0065531",
   "rating": 7.9,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 140
+  "runtime": 140,
+  "director": "Jean-Pierre Melville"
  },
  "lb-1HMe": {
   "imdb_id": "tt0066740",
   "rating": 7.0,
   "genres": "Comedy, Horror",
-  "runtime": 94
+  "runtime": 94,
+  "director": "Robert Fuest"
  },
  "lb-2axM": {
   "imdb_id": "tt0067185",
   "rating": 7.8,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 91
+  "runtime": 91,
+  "director": "Hal Ashby"
  },
  "lb-FFe": {
   "imdb_id": "tt0067327",
   "rating": 6.1,
   "genres": "Drama",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Dennis Hopper"
  },
  "lb-OlW": {
   "imdb_id": "tt0067805",
   "rating": 6.9,
   "genres": "Drama",
-  "runtime": 110
+  "runtime": 110,
+  "director": "John Schlesinger"
  },
  "lb-2aLu": {
   "imdb_id": "tt0067992",
   "rating": 7.8,
   "genres": "Adventure, Comedy, Family",
-  "runtime": 100
+  "runtime": 100,
+  "director": "Mel Stuart"
  },
  "lb-1WzE": {
   "imdb_id": "tt0068278",
   "rating": 7.5,
   "genres": "Drama, Romance",
-  "runtime": 124
+  "runtime": 124,
+  "director": "Rainer Werner Fassbinder"
  },
  "lb-22lS": {
   "imdb_id": "tt0068638",
   "rating": 7.3,
   "genres": "Action, Crime, Thriller",
-  "runtime": 123
+  "runtime": 123,
+  "director": "Sam Peckinpah"
  },
  "lb-29NO": {
   "imdb_id": "tt0069089",
   "rating": 6.0,
   "genres": "Comedy, Crime",
-  "runtime": 93
+  "runtime": 93,
+  "director": "John Waters"
  },
  "lb-1YCA": {
   "imdb_id": "tt0070034",
   "rating": 7.6,
   "genres": "Action, Crime, Thriller",
-  "runtime": 99
+  "runtime": 99,
+  "director": "Robert Clouse"
  },
  "lb-281O": {
   "imdb_id": "tt0070334",
   "rating": 7.5,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 112
+  "runtime": 112,
+  "director": "Robert Altman"
  },
  "lb-1KnQ": {
   "imdb_id": "tt0070544",
   "rating": 7.6,
   "genres": "Animation, Sci-Fi",
-  "runtime": 72
+  "runtime": 72,
+  "director": "Ren\u00e9 Laloux"
  },
  "lb-1Z5s": {
   "imdb_id": "tt0070735",
   "rating": 8.2,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 129
+  "runtime": 129,
+  "director": "George Roy Hill"
  },
  "lb-1KnG": {
   "imdb_id": "tt0070917",
   "rating": 7.5,
   "genres": "Horror, Mystery, Thriller",
-  "runtime": 88
+  "runtime": 88,
+  "director": "Robin Hardy"
  },
  "lb-1UHQ": {
   "imdb_id": "tt0071230",
   "rating": 7.7,
   "genres": "Comedy, Western",
-  "runtime": 93
+  "runtime": 93,
+  "director": "Mel Brooks"
  },
  "lb-29vU": {
   "imdb_id": "tt0071315",
   "rating": 8.1,
   "genres": "Drama, Mystery, Thriller",
-  "runtime": 130
+  "runtime": 130,
+  "director": "Roman Polanski"
  },
  "lb-1ILG": {
   "imdb_id": "tt0071970",
   "rating": 7.1,
   "genres": "Drama, Mystery, Thriller",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Alan J. Pakula"
  },
  "lb-20lG": {
   "imdb_id": "tt0072251",
   "rating": 7.6,
   "genres": "Action, Crime, Thriller",
-  "runtime": 104
+  "runtime": 104,
+  "director": "Joseph Sargent"
  },
  "lb-25To": {
   "imdb_id": "tt0072431",
   "rating": 8.0,
   "genres": "Comedy",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Mel Brooks"
  },
  "lb-5xZ6": {
   "imdb_id": "tt0072652",
   "rating": 7.6,
   "genres": "Drama",
-  "runtime": 83
+  "runtime": 83,
+  "director": "Felipe Cazals"
  },
  "lb-25A2": {
   "imdb_id": "tt0072684",
   "rating": 8.1,
   "genres": "Adventure, Drama, War",
-  "runtime": 185
+  "runtime": 185,
+  "director": "Stanley Kubrick"
  },
  "lb-1a3q": {
   "imdb_id": "tt0073629",
   "rating": 7.4,
   "genres": "Comedy, Horror, Musical",
-  "runtime": 100
+  "runtime": 100,
+  "director": "Jim Sharman"
  },
  "lb-1SF4": {
   "imdb_id": "tt0073802",
   "rating": 7.4,
   "genres": "Crime, Mystery, Thriller",
-  "runtime": 117
+  "runtime": 117,
+  "director": "Sydney Pollack"
  },
  "lb-1Vgw": {
   "imdb_id": "tt0074695",
   "rating": 7.4,
   "genres": "Drama, War",
-  "runtime": 119
+  "runtime": 119,
+  "director": "Sam Peckinpah"
  },
  "lb-iL4": {
   "imdb_id": "tt0074901",
   "rating": 7.3,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Elaine May"
  },
  "lb-14J6": {
   "imdb_id": "tt0076740",
   "rating": 7.7,
   "genres": "Adventure, Drama, Thriller",
-  "runtime": 121
+  "runtime": 121,
+  "director": "William Friedkin"
  },
  "lb-72s": {
   "imdb_id": "tt0076759",
   "rating": 8.6,
   "genres": "Action, Adventure, Fantasy",
-  "runtime": 121
+  "runtime": 121,
+  "director": "George Lucas"
  },
  "lb-27jW": {
   "imdb_id": "tt0077474",
   "rating": 7.1,
   "genres": "Action, Crime, Thriller",
-  "runtime": 91
+  "runtime": 91,
+  "director": "Walter Hill"
  },
  "lb-1tJ6": {
   "imdb_id": "tt0077914",
   "rating": 6.9,
   "genres": "Drama, Horror",
-  "runtime": 95
+  "runtime": 95,
+  "director": "George A. Romero"
  },
  "lb-1zgu": {
   "imdb_id": "tt0078326",
   "rating": 7.4,
   "genres": "Crime, Drama",
-  "runtime": 114
+  "runtime": 114,
+  "director": "Ulu Grosbard"
  },
  "lb-1Ujk": {
   "imdb_id": "tt0080179",
   "rating": 7.4,
   "genres": "Action, Comedy",
-  "runtime": 111
+  "runtime": 111,
+  "director": "Yuen Woo-Ping"
  },
  "lb-29yu": {
   "imdb_id": "tt0080339",
   "rating": 7.7,
   "genres": "Comedy",
-  "runtime": 88
+  "runtime": 88,
+  "director": "Jim Abrahams, David Zucker, Jerry Zucker"
  },
  "lb-27LQ": {
   "imdb_id": "tt0080678",
   "rating": 8.2,
   "genres": "Biography, Drama",
-  "runtime": 124
+  "runtime": 124,
+  "director": "David Lynch"
  },
  "lb-19KI": {
   "imdb_id": "tt0081633",
   "rating": 6.9,
   "genres": "Adventure, Comedy, Fantasy",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Terry Gilliam"
  },
  "lb-1TlE": {
   "imdb_id": "tt0082085",
   "rating": 7.4,
   "genres": "Crime, Drama, Mystery",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Brian De Palma"
  },
  "lb-1YiA": {
   "imdb_id": "tt0082176",
   "rating": 7.5,
   "genres": "Biography, Drama",
-  "runtime": 138
+  "runtime": 138,
+  "director": "Uli Edel"
  },
  "lb-1IF4": {
   "imdb_id": "tt0082894",
   "rating": 6.5,
   "genres": "Drama, Musical, Romance",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Herbert Ross"
  },
  "lb-1WXQ": {
   "imdb_id": "tt0084237",
   "rating": 7.3,
   "genres": "Adventure, Animation, Drama",
-  "runtime": 92
+  "runtime": 92,
+  "director": "Jules Bass, Arthur Rankin Jr."
  },
  "lb-XEy": {
   "imdb_id": "tt0084565",
   "rating": 6.6,
   "genres": "Drama",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Rainer Werner Fassbinder"
  },
  "lb-1Tc8": {
   "imdb_id": "tt0084649",
   "rating": 7.5,
   "genres": "Adventure, Animation, Drama",
-  "runtime": 82
+  "runtime": 82,
+  "director": "Don Bluth"
  },
  "lb-294O": {
   "imdb_id": "tt0084787",
   "rating": 8.2,
   "genres": "Horror, Mystery, Sci-Fi",
-  "runtime": 109
+  "runtime": 109,
+  "director": "John Carpenter"
  },
  "lb-1YkG": {
   "imdb_id": "tt0084805",
   "rating": 7.4,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 116
+  "runtime": 116,
+  "director": "Sydney Pollack"
  },
  "lb-Jtc": {
   "imdb_id": "tt0084899",
   "rating": 7.0,
   "genres": "Drama, Horror",
-  "runtime": 90
+  "runtime": 90,
+  "director": "Samuel Fuller"
  },
  "lb-1BLY": {
   "imdb_id": "tt0085127",
   "rating": 7.2,
   "genres": "Action, Adventure, Comedy",
-  "runtime": 105
+  "runtime": 105,
+  "director": "Jackie Chan, Sammo Kam-Bo Hung"
  },
  "lb-2aJS": {
   "imdb_id": "tt0085794",
   "rating": 7.8,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 109
+  "runtime": 109,
+  "director": "Martin Scorsese"
  },
  "lb-29uC": {
   "imdb_id": "tt0086541",
   "rating": 7.1,
   "genres": "Drama, Horror, Sci-Fi",
-  "runtime": 87
+  "runtime": 87,
+  "director": "David Cronenberg"
  },
  "lb-1TZk": {
   "imdb_id": "tt0086856",
   "rating": 6.2,
   "genres": "Adventure, Comedy, Sci-Fi",
-  "runtime": 103
+  "runtime": 103,
+  "director": "W.D. Richter"
  },
  "lb-1VfS": {
   "imdb_id": "tt0088680",
   "rating": 7.6,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 97
+  "runtime": 97,
+  "director": "Martin Scorsese"
  },
  "lb-29tY": {
   "imdb_id": "tt0087182",
   "rating": 6.2,
   "genres": "Action, Adventure, Sci-Fi",
-  "runtime": 137
+  "runtime": 137,
+  "director": "David Lynch"
  },
  "lb-29Ts": {
   "imdb_id": "tt0087884",
   "rating": 8.1,
   "genres": "Drama",
-  "runtime": 145
+  "runtime": 145,
+  "director": "Wim Wenders"
  },
  "lb-1ygo": {
   "imdb_id": "tt0088178",
   "rating": 8.7,
   "genres": "Documentary, Music",
-  "runtime": 88
+  "runtime": 88,
+  "director": "Jonathan Demme"
  },
  "lb-2be2": {
   "imdb_id": "tt0088846",
   "rating": 7.8,
   "genres": "Drama, Sci-Fi, Thriller",
-  "runtime": 132
+  "runtime": 132,
+  "director": "Terry Gilliam"
  },
  "lb-1MDQ": {
   "imdb_id": "tt0088930",
   "rating": 7.3,
   "genres": "Comedy, Crime, Mystery",
-  "runtime": 94
+  "runtime": 94,
+  "director": "Jonathan Lynn"
  },
  "lb-1Tlu": {
   "imdb_id": "tt0089881",
   "rating": 8.2,
   "genres": "Action, Drama, War",
-  "runtime": 160
+  "runtime": 160,
+  "director": "Akira Kurosawa"
  },
  "lb-29PA": {
   "imdb_id": "tt0090605",
   "rating": 8.4,
   "genres": "Action, Adventure, Horror",
-  "runtime": 137
+  "runtime": 137,
+  "director": "James Cameron"
  },
  "lb-29BI": {
   "imdb_id": "tt0090756",
   "rating": 7.7,
   "genres": "Crime, Drama, Mystery",
-  "runtime": 120
+  "runtime": 120,
+  "director": "David Lynch"
  },
  "lb-1LHW": {
   "imdb_id": "tt0091875",
   "rating": 6.5,
   "genres": "Action, Comedy, Crime",
-  "runtime": 107
+  "runtime": 107,
+  "director": "Peter Hyams"
  },
  "lb-2a7u": {
   "imdb_id": "tt0095016",
   "rating": 8.2,
   "genres": "Action, Thriller",
-  "runtime": 132
+  "runtime": 132,
+  "director": "John McTiernan"
  },
  "lb-1KHw": {
   "imdb_id": "tt0095262",
   "rating": 7.2,
   "genres": "Action, Animation, Drama",
-  "runtime": 124
+  "runtime": 124,
+  "director": "Yoshiyuki Tomino"
  },
  "lb-1VtU": {
   "imdb_id": "tt0095403",
   "rating": 7.0,
   "genres": "Action, Comedy, Crime",
-  "runtime": 101
+  "runtime": 101,
+  "director": "Jackie Chan"
  },
  "lb-1ZnQ": {
   "imdb_id": "tt0095631",
   "rating": 7.5,
   "genres": "Action, Comedy, Crime",
-  "runtime": 126
+  "runtime": 126,
+  "director": "Martin Brest"
  },
  "lb-1UlA": {
   "imdb_id": "tt0095765",
   "rating": 8.5,
   "genres": "Drama, Romance",
-  "runtime": 174
+  "runtime": 174,
+  "director": "Giuseppe Tornatore"
  },
  "lb-20lm": {
   "imdb_id": "tt0096256",
   "rating": 7.2,
   "genres": "Action, Horror, Sci-Fi",
-  "runtime": 94
+  "runtime": 94,
+  "director": "John Carpenter"
  },
  "lb-1pzc": {
   "imdb_id": "tt0096409",
   "rating": 6.7,
   "genres": "Biography, Drama, History",
-  "runtime": 94
+  "runtime": 94,
+  "director": "Alex Cox"
  },
  "lb-26A8": {
   "imdb_id": "tt0096969",
   "rating": 7.2,
   "genres": "Biography, Drama, War",
-  "runtime": 145
+  "runtime": 145,
+  "director": "Oliver Stone"
  },
  "lb-20VO": {
   "imdb_id": "tt0097108",
   "rating": 7.5,
   "genres": "Crime, Drama",
-  "runtime": 124
+  "runtime": 124,
+  "director": "Peter Greenaway"
  },
  "lb-29gA": {
   "imdb_id": "tt0097216",
   "rating": 7.9,
   "genres": "Comedy, Drama",
-  "runtime": 120
+  "runtime": 120,
+  "director": "Spike Lee"
  },
  "lb-26x4": {
   "imdb_id": "tt0097493",
   "rating": 7.1,
   "genres": "Comedy, Crime",
-  "runtime": 103
+  "runtime": 103,
+  "director": "Michael Lehmann"
  },
  "lb-27B2": {
   "imdb_id": "tt0098258",
   "rating": 7.3,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 100
+  "runtime": 100,
+  "director": "Cameron Crowe"
  },
  "lb-201w": {
   "imdb_id": "tt0099422",
   "rating": 6.2,
   "genres": "Action, Comedy, Crime",
-  "runtime": 105
+  "runtime": 105,
+  "director": "Warren Beatty"
  },
  "lb-1WUW": {
   "imdb_id": "tt0099615",
   "rating": 6.5,
   "genres": "Comedy, Crime",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Andrew Bergman"
  },
  "lb-29FA": {
   "imdb_id": "tt0099685",
   "rating": 8.7,
   "genres": "Biography, Crime, Drama",
-  "runtime": 145
+  "runtime": 145,
+  "director": "Martin Scorsese"
  },
  "lb-5GQi": {
   "imdb_id": "tt0099917",
   "rating": 7.0,
   "genres": "Action, Adventure, Drama",
-  "runtime": 50
+  "runtime": 50,
+  "director": "Keita Amemiya"
  },
  "lb-1Ynq": {
   "imdb_id": "tt0099939",
   "rating": 6.9,
   "genres": "Crime, Thriller",
-  "runtime": 103
+  "runtime": 103,
+  "director": "Abel Ferrara"
  },
  "lb-1YYm": {
   "imdb_id": "tt0100263",
   "rating": 7.2,
   "genres": "Action, Crime, Drama",
-  "runtime": 117
+  "runtime": 117,
+  "director": "Luc Besson"
  },
  "lb-1NPe": {
   "imdb_id": "tt0100339",
   "rating": 7.0,
   "genres": "Action, Animation, Crime",
-  "runtime": 100
+  "runtime": 100,
+  "director": "Mamoru Oshii"
  },
  "lb-Ywg": {
   "imdb_id": "tt0102456",
   "rating": 6.8,
   "genres": "Drama, Romance",
-  "runtime": 118
+  "runtime": 118,
+  "director": "Mira Nair"
  },
  "lb-2ak4": {
   "imdb_id": "tt0102494",
   "rating": 6.9,
   "genres": "Drama",
-  "runtime": 104
+  "runtime": 104,
+  "director": "Gus Van Sant"
  },
  "lb-1WIG": {
   "imdb_id": "tt0102803",
   "rating": 6.6,
   "genres": "Action, Adventure, Family",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Joe Johnston"
  },
  "lb-1Ou2": {
   "imdb_id": "tt0104009",
   "rating": 4.9,
   "genres": "Animation, Comedy, Fantasy",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Ralph Bakshi"
  },
  "lb-bUt0": {
   "imdb_id": "tt0104512",
   "rating": 4.5,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 89
+  "runtime": 89,
+  "director": "Jeffrey Reiner, Lizzie Borden, Adam Friedman"
  },
  "lb-1fRA": {
   "imdb_id": "tt0104745",
   "rating": 6.6,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 81
+  "runtime": 81,
+  "director": "Gregg Araki"
  },
  "lb-27WE": {
   "imdb_id": "tt0104797",
   "rating": 7.7,
   "genres": "Biography, Drama, History",
-  "runtime": 202
+  "runtime": 202,
+  "director": "Spike Lee"
  },
  "lb-6Z4": {
   "imdb_id": "tt0105695",
   "rating": 8.2,
   "genres": "Drama, Western",
-  "runtime": 130
+  "runtime": 130,
+  "director": "Clint Eastwood"
  },
  "lb-1WWy": {
   "imdb_id": "tt0105812",
   "rating": 6.8,
   "genres": "Comedy, Sport",
-  "runtime": 115
+  "runtime": 115,
+  "director": "Ron Shelton"
  },
  "lb-1N6S": {
   "imdb_id": "tt0106364",
   "rating": 7.8,
   "genres": "Action, Adventure, Animation",
-  "runtime": 76
+  "runtime": 76,
+  "director": "Kevin Altieri, Boyd Kirkland, Frank Paur"
  },
  "lb-21lM": {
   "imdb_id": "tt0107131",
   "rating": 7.0,
   "genres": "Adventure, Comedy, Drama",
-  "runtime": 84
+  "runtime": 84,
+  "director": "Duwayne Dunham"
  },
  "lb-1SDM": {
   "imdb_id": "tt0107616",
   "rating": 7.3,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 111
+  "runtime": 111,
+  "director": "Kenneth Branagh"
  },
  "lb-1SE6": {
   "imdb_id": "tt0108358",
   "rating": 7.8,
   "genres": "Biography, Drama, History",
-  "runtime": 130
+  "runtime": 130,
+  "director": "George P. Cosmatos"
  },
  "lb-2aBa": {
   "imdb_id": "tt0108399",
   "rating": 7.9,
   "genres": "Crime, Drama, Romance",
-  "runtime": 119
+  "runtime": 119,
+  "director": "Tony Scott"
  },
  "lb-p06W": {
   "imdb_id": "tt0109598",
   "rating": 6.1,
   "genres": "Action, Crime, Drama",
-  "runtime": 91
+  "runtime": 91,
+  "director": "Kar-Yung Lau"
  },
  "lb-2974": {
   "imdb_id": "tt0110005",
   "rating": 7.2,
   "genres": "Biography, Crime, Drama",
-  "runtime": 99
+  "runtime": 99,
+  "director": "Peter Jackson"
  },
  "lb-1Opc": {
   "imdb_id": "tt0110057",
   "rating": 8.3,
   "genres": "Documentary, Drama, Sport",
-  "runtime": 170
+  "runtime": 170,
+  "director": "Steve James"
  },
  "lb-1WaO": {
   "imdb_id": "tt0112461",
   "rating": 7.3,
   "genres": "Biography, Crime, Drama",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Scott Kalvert"
  },
  "lb-1D7w": {
   "imdb_id": "tt0112688",
   "rating": 6.9,
   "genres": "Crime, Drama, Mystery",
-  "runtime": 128
+  "runtime": 128,
+  "director": "Spike Lee"
  },
  "lb-1Ygk": {
   "imdb_id": "tt0112697",
   "rating": 6.9,
   "genres": "Comedy, Romance",
-  "runtime": 97
+  "runtime": 97,
+  "director": "Amy Heckerling"
  },
  "lb-VSy": {
   "imdb_id": "tt0112800",
   "rating": 6.9,
   "genres": "Action",
-  "runtime": 105
+  "runtime": 105,
+  "director": "Hark Tsui"
  },
  "lb-204A": {
   "imdb_id": "tt0112857",
   "rating": 6.8,
   "genres": "Crime, Drama, Mystery",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Carl Franklin"
  },
  "lb-1PVe": {
   "imdb_id": "tt0112887",
   "rating": 6.2,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 83
+  "runtime": 83,
+  "director": "Gregg Araki"
  },
  "lb-2as8": {
   "imdb_id": "tt0113247",
   "rating": 8.1,
   "genres": "Crime, Drama",
-  "runtime": 98
+  "runtime": 98,
+  "director": "Mathieu Kassovitz"
  },
  "lb-1fi6": {
   "imdb_id": "tt0113326",
   "rating": 6.8,
   "genres": "Action, Comedy, Crime",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Stanley Tong"
  },
  "lb-1YUY": {
   "imdb_id": "tt0113540",
   "rating": 7.0,
   "genres": "Drama",
-  "runtime": 91
+  "runtime": 91,
+  "director": "Larry Clark"
  },
  "lb-Vz2": {
   "imdb_id": "tt0113799",
   "rating": 7.5,
   "genres": "Animation, Drama, Horror",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Katsuhiro \u014ctomo, K\u014dji Morimoto, Tensai Okamura"
  },
  "lb-1Sx0": {
   "imdb_id": "tt0114214",
   "rating": 6.5,
   "genres": "Action, Drama, Romance",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Sam Raimi"
  },
  "lb-1gKU": {
   "imdb_id": "tt0114323",
   "rating": 7.1,
   "genres": "Drama, Mystery",
-  "runtime": 119
+  "runtime": 119,
+  "director": "Todd Haynes"
  },
  "lb-29zs": {
   "imdb_id": "tt0114369",
   "rating": 8.6,
   "genres": "Crime, Drama, Mystery",
-  "runtime": 127
+  "runtime": 127,
+  "director": "David Fincher"
  },
  "lb-29XE": {
   "imdb_id": "tt0114814",
   "rating": 8.5,
   "genres": "Crime, Drama, Mystery",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Bryan Singer"
  },
  "lb-183e": {
   "imdb_id": "tt0115940",
   "rating": 7.6,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 113
+  "runtime": 113,
+  "director": "\u00c9ric Rohmer"
  },
  "lb-29HQ": {
   "imdb_id": "tt0116367",
   "rating": 7.2,
   "genres": "Action, Crime, Horror",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Robert Rodriguez"
  },
  "lb-1VZc": {
   "imdb_id": "tt0116477",
   "rating": 7.7,
   "genres": "Drama",
-  "runtime": 242
+  "runtime": 242,
+  "director": "Kenneth Branagh"
  },
  "lb-24EC": {
   "imdb_id": "tt0117571",
   "rating": 7.5,
   "genres": "Horror, Mystery",
-  "runtime": 111
+  "runtime": 111,
+  "director": "Wes Craven"
  },
  "lb-1Z1U": {
   "imdb_id": "tt0117883",
   "rating": 7.4,
   "genres": "Crime, Horror, Mystery",
-  "runtime": 125
+  "runtime": 125,
+  "director": "Alejandro Amen\u00e1bar"
  },
  "lb-29XY": {
   "imdb_id": "tt0117951",
   "rating": 8.1,
   "genres": "Crime, Drama",
-  "runtime": 93
+  "runtime": 93,
+  "director": "Danny Boyle"
  },
  "lb-29y0": {
   "imdb_id": "tt0118655",
   "rating": 7.0,
   "genres": "Adventure, Comedy",
-  "runtime": 89
+  "runtime": 89,
+  "director": "Jay Roach"
  },
  "lb-2b6C": {
   "imdb_id": "tt0118715",
   "rating": 8.1,
   "genres": "Comedy, Crime",
-  "runtime": 117
+  "runtime": 117,
+  "director": "Joel Coen, Ethan Coen"
  },
  "lb-23um": {
   "imdb_id": "tt0118749",
   "rating": 7.9,
   "genres": "Drama",
-  "runtime": 155
+  "runtime": 155,
+  "director": "Paul Thomas Anderson"
  },
  "lb-29Wm": {
   "imdb_id": "tt0118799",
   "rating": 8.6,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 116
+  "runtime": 116,
+  "director": "Roberto Benigni"
  },
  "lb-1Pho": {
   "imdb_id": "tt0118826",
   "rating": 7.7,
   "genres": "Comedy, Drama",
-  "runtime": 85
+  "runtime": 85,
+  "director": "Rob Sitch"
  },
  "lb-1Ha0": {
   "imdb_id": "tt0118845",
   "rating": 7.6,
   "genres": "Drama, Romance",
-  "runtime": 96
+  "runtime": 96,
+  "director": "Wong Kar-Wai"
  },
  "lb-29Du": {
   "imdb_id": "tt0119177",
   "rating": 7.7,
   "genres": "Drama, Sci-Fi, Thriller",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Andrew Niccol"
  },
  "lb-2ahY": {
   "imdb_id": "tt0119217",
   "rating": 8.4,
   "genres": "Drama, Romance",
-  "runtime": 126
+  "runtime": 126,
+  "director": "Gus Van Sant"
  },
  "lb-286E": {
   "imdb_id": "tt0119809",
   "rating": 6.6,
   "genres": "Comedy, Drama, Sci-Fi",
-  "runtime": 82
+  "runtime": 82,
+  "director": "Gregg Araki"
  },
  "lb-1WMo": {
   "imdb_id": "tt0120324",
   "rating": 7.5,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 121
+  "runtime": 121,
+  "director": "Sam Raimi"
  },
  "lb-2ahu": {
   "imdb_id": "tt0120601",
   "rating": 7.7,
   "genres": "Comedy, Drama, Fantasy",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Spike Jonze"
  },
  "lb-1a8A": {
   "imdb_id": "tt0120611",
   "rating": 7.1,
   "genres": "Action, Horror, Sci-Fi",
-  "runtime": 120
+  "runtime": 120,
+  "director": "Stephen Norrington"
  },
  "lb-2axs": {
   "imdb_id": "tt0120663",
   "rating": 7.5,
   "genres": "Drama, Mystery, Thriller",
-  "runtime": 159
+  "runtime": 159,
+  "director": "Stanley Kubrick"
  },
  "lb-2agG": {
   "imdb_id": "tt0120689",
   "rating": 8.6,
   "genres": "Crime, Drama, Fantasy",
-  "runtime": 189
+  "runtime": 189,
+  "director": "Frank Darabont"
  },
  "lb-2b92": {
   "imdb_id": "tt0120735",
   "rating": 8.1,
   "genres": "Comedy, Crime",
-  "runtime": 107
+  "runtime": 107,
+  "director": "Guy Ritchie"
  },
  "lb-2b5O": {
   "imdb_id": "tt0120737",
   "rating": 8.9,
   "genres": "Adventure, Drama, Fantasy",
-  "runtime": 178
+  "runtime": 178,
+  "director": "Peter Jackson"
  },
  "lb-1XGQ": {
   "imdb_id": "tt0120794",
   "rating": 7.3,
   "genres": "Adventure, Animation, Drama",
-  "runtime": 99
+  "runtime": 99,
+  "director": "Brenda Chapman, Steve Hickner, Simon Wells"
  },
  "lb-29ro": {
   "imdb_id": "tt0120815",
   "rating": 8.6,
   "genres": "Drama, War",
-  "runtime": 169
+  "runtime": 169,
+  "director": "Steven Spielberg"
  },
  "lb-29ta": {
   "imdb_id": "tt0120902",
   "rating": 7.0,
   "genres": "Adventure, Drama, Mystery",
-  "runtime": 121
+  "runtime": 121,
+  "director": "Rob Bowman"
  },
  "lb-27Ni": {
   "imdb_id": "tt0120907",
   "rating": 6.8,
   "genres": "Horror, Mystery, Sci-Fi",
-  "runtime": 97
+  "runtime": 97,
+  "director": "David Cronenberg"
  },
  "lb-1YBs": {
   "imdb_id": "tt0124718",
   "rating": 6.9,
   "genres": "Drama, Sport",
-  "runtime": 136
+  "runtime": 136,
+  "director": "Spike Lee"
  },
  "lb-1NP4": {
   "imdb_id": "tt0124770",
   "rating": 7.5,
   "genres": "Action, Animation, Drama",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Mamoru Oshii"
  },
  "lb-2aeK": {
   "imdb_id": "tt0125439",
   "rating": 7.2,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 124
+  "runtime": 124,
+  "director": "Roger Michell"
  },
  "lb-1YEc": {
   "imdb_id": "tt0126886",
   "rating": 7.2,
   "genres": "Comedy, Romance",
-  "runtime": 103
+  "runtime": 103,
+  "director": "Alexander Payne"
  },
  "lb-1WMS": {
   "imdb_id": "tt0128442",
   "rating": 7.3,
   "genres": "Crime, Drama",
-  "runtime": 121
+  "runtime": 121,
+  "director": "John Dahl"
  },
  "lb-2b8o": {
   "imdb_id": "tt0130827",
   "rating": 7.6,
   "genres": "Action, Crime, Thriller",
-  "runtime": 80
+  "runtime": 80,
+  "director": "Tom Tykwer"
  },
  "lb-1OVs": {
   "imdb_id": "tt0131857",
   "rating": 6.5,
   "genres": "Comedy, Sport",
-  "runtime": 103
+  "runtime": 103,
+  "director": "David Zucker"
  },
  "lb-1ino": {
   "imdb_id": "tt0135037",
   "rating": 6.6,
   "genres": "Action, Animation, Drama",
-  "runtime": 103
+  "runtime": 103,
+  "director": "Yoshikazu Yasuhiko"
  },
  "lb-27A4": {
   "imdb_id": "tt0139654",
   "rating": 7.8,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 122
+  "runtime": 122,
+  "director": "Antoine Fuqua"
  },
  "lb-1Epc": {
   "imdb_id": "tt0142371",
   "rating": 7.1,
   "genres": "Action, Animation, Drama",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Toyoo Ashida"
  },
  "lb-28Vs": {
   "imdb_id": "tt0144084",
   "rating": 7.6,
   "genres": "Crime, Drama, Horror",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Mary Harron"
  },
  "lb-1XsO": {
   "imdb_id": "tt0146675",
   "rating": 5.8,
   "genres": "Action, Fantasy, Horror",
-  "runtime": 122
+  "runtime": 122,
+  "director": "Peter Hyams"
  },
  "lb-1VEe": {
   "imdb_id": "tt0147612",
   "rating": 7.7,
   "genres": "Comedy, Drama",
-  "runtime": 140
+  "runtime": 140,
+  "director": "Todd Solondz"
  },
  "lb-1W7A": {
   "imdb_id": "tt0156887",
   "rating": 8.0,
   "genres": "Animation, Crime, Drama",
-  "runtime": 82
+  "runtime": 82,
+  "director": "Satoshi Kon"
  },
  "lb-26Fi": {
   "imdb_id": "tt0158714",
   "rating": 7.6,
   "genres": "Action, Crime, Drama",
-  "runtime": 97
+  "runtime": 97,
+  "director": "Toshiya Fujita"
  },
  "lb-20i8": {
   "imdb_id": "tt0162222",
   "rating": 7.8,
   "genres": "Adventure, Drama, Romance",
-  "runtime": 143
+  "runtime": 143,
+  "director": "Robert Zemeckis"
  },
  "lb-242I": {
   "imdb_id": "tt0164184",
   "rating": 6.5,
   "genres": "Action, Drama, Thriller",
-  "runtime": 124
+  "runtime": 124,
+  "director": "Phil Alden Robinson"
  },
  "lb-297o": {
   "imdb_id": "tt0166924",
   "rating": 7.9,
   "genres": "Drama, Mystery, Thriller",
-  "runtime": 147
+  "runtime": 147,
+  "director": "David Lynch"
  },
  "lb-1VDq": {
   "imdb_id": "tt0171359",
   "rating": 5.9,
   "genres": "Drama, Romance, Thriller",
-  "runtime": 112
+  "runtime": 112,
+  "director": "Michael Almereyda"
  },
  "lb-1CW4": {
   "imdb_id": "tt0179116",
   "rating": 6.9,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 85
+  "runtime": 85,
+  "director": "Jamie Babbit"
  },
  "lb-2ej0": {
   "imdb_id": "tt0180037",
   "rating": 6.4,
   "genres": "Comedy, Romance",
-  "runtime": 96
+  "runtime": 96,
+  "director": "Antony J. Bowman"
  },
  "lb-2aWi": {
   "imdb_id": "tt0181689",
   "rating": 7.6,
   "genres": "Action, Crime, Mystery",
-  "runtime": 145
+  "runtime": 145,
+  "director": "Steven Spielberg"
  },
  "lb-27w2": {
   "imdb_id": "tt0183523",
   "rating": 5.7,
   "genres": "Adventure, Sci-Fi, Thriller",
-  "runtime": 114
+  "runtime": 114,
+  "director": "Brian De Palma"
  },
  "lb-1YAk": {
   "imdb_id": "tt0183790",
   "rating": 7.0,
   "genres": "Action, Adventure, Drama",
-  "runtime": 132
+  "runtime": 132,
+  "director": "Brian Helgeland"
  },
  "lb-1agO": {
   "imdb_id": "tt0187738",
   "rating": 6.7,
   "genres": "Action, Horror, Sci-Fi",
-  "runtime": 117
+  "runtime": 117,
+  "director": "Guillermo del Toro"
  },
  "lb-22Yg": {
   "imdb_id": "tt0192023",
   "rating": 6.2,
   "genres": "Drama, Thriller",
-  "runtime": 100
+  "runtime": 100,
+  "director": "Jeff Probst"
  },
  "lb-24xc": {
   "imdb_id": "tt0199683",
   "rating": 7.7,
   "genres": "Comedy, Drama",
-  "runtime": 122
+  "runtime": 122,
+  "director": "Takeshi Kitano"
  },
  "lb-2b7U": {
   "imdb_id": "tt0208092",
   "rating": 8.2,
   "genres": "Comedy, Crime",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Guy Ritchie"
  },
  "lb-4BCe": {
   "imdb_id": "tt0209942",
   "rating": 7.4,
   "genres": "Documentary, Short",
-  "runtime": 28
+  "runtime": 28,
+  "director": "Agn\u00e8s Varda"
  },
  "lb-14z6": {
   "imdb_id": "tt0269856",
   "rating": 7.5,
   "genres": "Drama",
-  "runtime": 128
+  "runtime": 128,
+  "director": "Hideaki Anno"
  },
  "lb-1Npq": {
   "imdb_id": "tt0212936",
   "rating": 6.2,
   "genres": "Drama",
-  "runtime": 90
+  "runtime": 90,
+  "director": "Alan White"
  },
  "lb-1sAs": {
   "imdb_id": "tt0216048",
   "rating": 7.7,
   "genres": "Musical, Romance, Western",
-  "runtime": 180
+  "runtime": 180,
+  "director": "Trevor Nunn"
  },
  "lb-fGg": {
   "imdb_id": "tt0222012",
   "rating": 8.0,
   "genres": "Crime, Drama, History",
-  "runtime": 186
+  "runtime": 186,
+  "director": "Kamal Haasan"
  },
  "lb-1U0C": {
   "imdb_id": "tt0227445",
   "rating": 6.8,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 124
+  "runtime": 124,
+  "director": "Frank Oz"
  },
  "lb-SUmk": {
   "imdb_id": "tt0244842",
   "rating": 6.8,
   "genres": "Comedy, Drama, Short",
-  "runtime": 45
+  "runtime": 45,
+  "director": "Gregg Araki"
  },
  "lb-2bfu": {
   "imdb_id": "tt0245712",
   "rating": 8.0,
   "genres": "Drama, Thriller",
-  "runtime": 154
+  "runtime": 154,
+  "director": "Alejandro G. I\u00f1\u00e1rritu"
  },
  "lb-1U24": {
   "imdb_id": "tt0245844",
   "rating": 7.7,
   "genres": "Action, Adventure, Drama",
-  "runtime": 131
+  "runtime": 131,
+  "director": "Kevin Reynolds"
  },
  "lb-205e": {
   "imdb_id": "tt0248667",
   "rating": 6.7,
   "genres": "Biography, Drama, Sport",
-  "runtime": 157
+  "runtime": 157,
+  "director": "Michael Mann"
  },
  "lb-2bdy": {
   "imdb_id": "tt0249462",
   "rating": 7.7,
   "genres": "Drama, Music",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Stephen Daldry"
  },
  "lb-1ZNa": {
   "imdb_id": "tt0250494",
   "rating": 6.6,
   "genres": "Comedy, Romance",
-  "runtime": 96
+  "runtime": 96,
+  "director": "Robert Luketic"
  },
  "lb-1MOE": {
   "imdb_id": "tt0252684",
   "rating": 7.1,
   "genres": "Drama",
-  "runtime": 100
+  "runtime": 100,
+  "director": "Jordan Melamed"
  },
  "lb-28Li": {
   "imdb_id": "tt0256009",
   "rating": 7.3,
   "genres": "Drama, Horror, Thriller",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Guillermo del Toro"
  },
  "lb-26Ja": {
   "imdb_id": "tt0260991",
   "rating": 7.7,
   "genres": "Action, Drama, Thriller",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Park Chan-wook"
  },
  "lb-28Fk": {
   "imdb_id": "tt0266987",
   "rating": 7.1,
   "genres": "Action, Crime, Thriller",
-  "runtime": 126
+  "runtime": 126,
+  "director": "Tony Scott"
  },
  "lb-26mA": {
   "imdb_id": "tt0268126",
   "rating": 7.6,
   "genres": "Comedy, Drama",
-  "runtime": 115
+  "runtime": 115,
+  "director": "Spike Jonze"
  },
  "lb-20E4": {
   "imdb_id": "tt0272338",
   "rating": 7.3,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 95
+  "runtime": 95,
+  "director": "Paul Thomas Anderson"
  },
  "lb-2aB0": {
   "imdb_id": "tt0278504",
   "rating": 7.2,
   "genres": "Drama, Mystery, Thriller",
-  "runtime": 118
+  "runtime": 118,
+  "director": "Christopher Nolan"
  },
  "lb-2aXU": {
   "imdb_id": "tt0289043",
   "rating": 7.5,
   "genres": "Drama, Horror, Sci-Fi",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Danny Boyle"
  },
  "lb-27qS": {
   "imdb_id": "tt0307479",
   "rating": 6.2,
   "genres": "Drama, Mystery, Romance",
-  "runtime": 99
+  "runtime": 99,
+  "director": "Steven Soderbergh"
  },
  "lb-1Q2a": {
   "imdb_id": "tt0314498",
   "rating": 5.7,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 93
+  "runtime": 93,
+  "director": "Brian Robbins"
  },
  "lb-1lSE": {
   "imdb_id": "tt0314676",
   "rating": 5.4,
   "genres": "Comedy, Crime, Musical",
-  "runtime": 109
+  "runtime": 109,
+  "director": "Keith Gordon"
  },
  "lb-29ho": {
   "imdb_id": "tt0317219",
   "rating": 7.3,
   "genres": "Adventure, Animation, Comedy",
-  "runtime": 116
+  "runtime": 116,
+  "director": "John Lasseter, Joe Ranft"
  },
  "lb-1MwK": {
   "imdb_id": "tt0325123",
   "rating": 6.5,
   "genres": "Comedy, Drama, War",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Stephen Fry"
  },
  "lb-215a": {
   "imdb_id": "tt0325805",
   "rating": 7.2,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 116
+  "runtime": 116,
+  "director": "Ridley Scott"
  },
  "lb-1O5G": {
   "imdb_id": "tt0327679",
   "rating": 6.3,
   "genres": "Comedy, Family, Fantasy",
-  "runtime": 96
+  "runtime": 96,
+  "director": "Tommy O'Haver"
  },
  "lb-1UNE": {
   "imdb_id": "tt0332280",
   "rating": 7.8,
   "genres": "Drama, Romance",
-  "runtime": 123
+  "runtime": 123,
+  "director": "Nick Cassavetes"
  },
  "lb-2b0E": {
   "imdb_id": "tt0335266",
   "rating": 7.7,
   "genres": "Comedy, Drama",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Sofia Coppola"
  },
  "lb-21aa": {
   "imdb_id": "tt0338526",
   "rating": 6.1,
   "genres": "Action, Adventure, Fantasy",
-  "runtime": 131
+  "runtime": 131,
+  "director": "Stephen Sommers"
  },
  "lb-26BU": {
   "imdb_id": "tt0338751",
   "rating": 7.5,
   "genres": "Biography, Drama",
-  "runtime": 170
+  "runtime": 170,
+  "director": "Martin Scorsese"
  },
  "lb-1SYq": {
   "imdb_id": "tt0345950",
   "rating": 7.2,
   "genres": "Adventure, Animation, Comedy",
-  "runtime": 87
+  "runtime": 87,
+  "director": "Stephen Hillenburg"
  },
  "lb-1XOg": {
   "imdb_id": "tt0355702",
   "rating": 7.1,
   "genres": "Biography, Drama, Sport",
-  "runtime": 107
+  "runtime": 107,
+  "director": "Catherine Hardwicke"
  },
  "lb-1UgU": {
   "imdb_id": "tt0356470",
   "rating": 6.0,
   "genres": "Comedy, Family, Romance",
-  "runtime": 95
+  "runtime": 95,
+  "director": "Mark Rosman"
  },
  "lb-ZwQ": {
   "imdb_id": "tt0362790",
   "rating": 6.4,
   "genres": "Documentary, Short",
-  "runtime": 37
+  "runtime": 37,
+  "director": "J.M. Kenny"
  },
  "lb-29J8": {
   "imdb_id": "tt0365748",
   "rating": 7.8,
   "genres": "Comedy, Horror",
-  "runtime": 99
+  "runtime": 99,
+  "director": "Edgar Wright"
  },
  "lb-24Ys": {
   "imdb_id": "tt0368794",
   "rating": 6.8,
   "genres": "Biography, Drama, Music",
-  "runtime": 135
+  "runtime": 135,
+  "director": "Todd Haynes"
  },
  "lb-zeI6": {
   "imdb_id": "tt0371310",
   "rating": 5.2,
   "genres": "Action, Adventure, Fantasy",
-  "runtime": 119
+  "runtime": 119,
+  "director": "Shin Togashi"
  },
  "lb-28dA": {
   "imdb_id": "tt0371746",
   "rating": 7.9,
   "genres": "Action, Adventure, Sci-Fi",
-  "runtime": 126
+  "runtime": 126,
+  "director": "Jon Favreau"
  },
  "lb-1Bv2": {
   "imdb_id": "tt0452039",
   "rating": 7.7,
   "genres": "Adventure, Animation, Comedy",
-  "runtime": 103
+  "runtime": 103,
+  "director": "Masaaki Yuasa, K\u014dji Morimoto"
  },
  "lb-1YBi": {
   "imdb_id": "tt0373074",
   "rating": 7.7,
   "genres": "Action, Comedy, Fantasy",
-  "runtime": 99
+  "runtime": 99,
+  "director": "Stephen Chow"
  },
  "lb-1Okw": {
   "imdb_id": "tt0374339",
   "rating": 6.8,
   "genres": "Action, Crime, Drama",
-  "runtime": 118
+  "runtime": 118,
+  "director": "Wai Keung Lau, Alan Mak"
  },
  "lb-1Y5c": {
   "imdb_id": "tt0375063",
   "rating": 7.5,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 127
+  "runtime": 127,
+  "director": "Alexander Payne"
  },
  "lb-1VNg": {
   "imdb_id": "tt0377092",
   "rating": 7.1,
   "genres": "Comedy",
-  "runtime": 97
+  "runtime": 97,
+  "director": "Mark Waters"
  },
  "lb-oFG": {
   "imdb_id": "tt0377556",
   "rating": 7.1,
   "genres": "Comedy, Drama",
-  "runtime": 82
+  "runtime": 82,
+  "director": "Tsai Ming-liang"
  },
  "lb-1SpK": {
   "imdb_id": "tt0381707",
   "rating": 6.0,
   "genres": "Comedy, Crime",
-  "runtime": 109
+  "runtime": 109,
+  "director": "Keenen Ivory Wayans"
  },
  "lb-2a3i": {
   "imdb_id": "tt0382625",
   "rating": 6.7,
   "genres": "Mystery, Thriller",
-  "runtime": 149
+  "runtime": 149,
+  "director": "Ron Howard"
  },
  "lb-23zw": {
   "imdb_id": "tt0383028",
   "rating": 7.5,
   "genres": "Drama",
-  "runtime": 124
+  "runtime": 124,
+  "director": "Charlie Kaufman"
  },
  "lb-1Sys": {
   "imdb_id": "tt0383216",
   "rating": 5.7,
   "genres": "Adventure, Comedy, Crime",
-  "runtime": 93
+  "runtime": 93,
+  "director": "Shawn Levy"
  },
  "lb-1YoI": {
   "imdb_id": "tt0385004",
   "rating": 7.5,
   "genres": "Action, Adventure, Drama",
-  "runtime": 119
+  "runtime": 119,
+  "director": "Yimou Zhang"
  },
  "lb-1TmC": {
   "imdb_id": "tt0386005",
   "rating": 6.9,
   "genres": "Action, Crime, Thriller",
-  "runtime": 123
+  "runtime": 123,
+  "director": "Benny Chan"
  },
  "lb-2aSA": {
   "imdb_id": "tt0395169",
   "rating": 8.1,
   "genres": "Biography, Drama, History",
-  "runtime": 121
+  "runtime": 121,
+  "director": "Terry George"
  },
  "lb-FQ2": {
   "imdb_id": "tt0401729",
   "rating": 6.6,
   "genres": "Action, Adventure, Sci-Fi",
-  "runtime": 132
+  "runtime": 132,
+  "director": "Andrew Stanton"
  },
  "lb-25jK": {
   "imdb_id": "tt0405296",
   "rating": 7.0,
   "genres": "Animation, Comedy, Crime",
-  "runtime": 100
+  "runtime": 100,
+  "director": "Richard Linklater"
  },
  "lb-1OFE": {
   "imdb_id": "tt0406706",
   "rating": 4.7,
   "genres": "Horror",
-  "runtime": 90
+  "runtime": 90,
+  "director": "David Winkler"
  },
  "lb-28MA": {
   "imdb_id": "tt0407887",
   "rating": 8.5,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 151
+  "runtime": 151,
+  "director": "Martin Scorsese"
  },
  "lb-1acM": {
   "imdb_id": "tt0407924",
   "rating": 6.5,
   "genres": "Action, Animation, Drama",
-  "runtime": 87
+  "runtime": 87,
+  "director": "Tatsuo Sat\u014d"
  },
  "lb-28RU": {
   "imdb_id": "tt0414993",
   "rating": 7.1,
   "genres": "Drama, Mystery, Romance",
-  "runtime": 97
+  "runtime": 97,
+  "director": "Darren Aronofsky"
  },
  "lb-1vme": {
   "imdb_id": "tt0415380",
   "rating": 6.9,
   "genres": "Drama",
-  "runtime": 95
+  "runtime": 95,
+  "director": "Johnnie To"
  },
  "lb-24l6": {
   "imdb_id": "tt0424880",
   "rating": 7.2,
   "genres": "Drama, Romance",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Neil Armfield"
  },
  "lb-2416": {
   "imdb_id": "tt0425112",
   "rating": 7.8,
   "genres": "Action, Comedy, Mystery",
-  "runtime": 121
+  "runtime": 121,
+  "director": "Edgar Wright"
  },
  "lb-1wlG": {
   "imdb_id": "tt0425458",
   "rating": 7.4,
   "genres": "Comedy, Drama, Short",
-  "runtime": 27
+  "runtime": 27,
+  "director": "Martin McDonagh"
  },
  "lb-2bbW": {
   "imdb_id": "tt0430357",
   "rating": 6.1,
   "genres": "Action, Crime, Drama",
-  "runtime": 132
+  "runtime": 132,
+  "director": "Michael Mann"
  },
  "lb-1Aq6": {
   "imdb_id": "tt0446029",
   "rating": 7.5,
   "genres": "Action, Comedy, Fantasy",
-  "runtime": 112
+  "runtime": 112,
+  "director": "Edgar Wright"
  },
  "lb-29EW": {
   "imdb_id": "tt0449059",
   "rating": 7.8,
   "genres": "Comedy, Drama",
-  "runtime": 101
+  "runtime": 101,
+  "director": "Jonathan Dayton, Valerie Faris"
  },
  "lb-t5S": {
   "imdb_id": "tt0450337",
   "rating": 7.7,
   "genres": "Comedy, Romance, Short",
-  "runtime": 11
+  "runtime": 11,
+  "director": "Donald Rice"
  },
  "lb-2awE": {
   "imdb_id": "tt0458352",
   "rating": 7.0,
   "genres": "Comedy, Drama",
-  "runtime": 109
+  "runtime": 109,
+  "director": "David Frankel"
  },
  "lb-28d6": {
   "imdb_id": "tt0460829",
   "rating": 6.8,
   "genres": "Drama, Fantasy, Mystery",
-  "runtime": 180
+  "runtime": 180,
+  "director": "David Lynch"
  },
  "lb-2466": {
   "imdb_id": "tt0465538",
   "rating": 7.2,
   "genres": "Crime, Drama, Mystery",
-  "runtime": 119
+  "runtime": 119,
+  "director": "Tony Gilroy"
  },
  "lb-24LI": {
   "imdb_id": "tt0465602",
   "rating": 6.6,
   "genres": "Action, Comedy, Thriller",
-  "runtime": 86
+  "runtime": 86,
+  "director": "Michael Davis"
  },
  "lb-5rFE": {
   "imdb_id": "tt0469021",
   "rating": 6.9,
   "genres": "Action, Comedy, Crime",
-  "runtime": 90
+  "runtime": 90,
+  "director": "Declan Lowney"
  },
  "lb-28yy": {
   "imdb_id": "tt0472043",
   "rating": 7.9,
   "genres": "Action, Adventure, Drama",
-  "runtime": 139
+  "runtime": 139,
+  "director": "Mel Gibson"
  },
  "lb-1DZe": {
   "imdb_id": "tt0477252",
   "rating": 5.8,
   "genres": "Comedy, Drama, Musical",
-  "runtime": 140
+  "runtime": 140,
+  "director": "Horse Babu, Abbas Alibhai Burmawalla, Mastan Alibhai Burmawalla"
  },
  "lb-21ew": {
   "imdb_id": "tt0477348",
   "rating": 8.2,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 122
+  "runtime": 122,
+  "director": "Ethan Coen, Joel Coen"
  },
  "lb-293w": {
   "imdb_id": "tt0482571",
   "rating": 8.5,
   "genres": "Drama, Mystery, Sci-Fi",
-  "runtime": 130
+  "runtime": 130,
+  "director": "Christopher Nolan"
  },
  "lb-1sMI": {
   "imdb_id": "tt0485601",
   "rating": 7.5,
   "genres": "Adventure, Animation, Family",
-  "runtime": 75
+  "runtime": 75,
+  "director": "Tomm Moore, Nora Twomey"
  },
  "lb-6rQ": {
   "imdb_id": "tt0769499",
   "rating": 4.5,
   "genres": "Action, Drama",
-  "runtime": 167
+  "runtime": 167,
+  "director": "Ramana"
  },
  "lb-1ZXE": {
   "imdb_id": "tt0770752",
   "rating": 5.8,
   "genres": "Action, Adventure, Comedy",
-  "runtime": 112
+  "runtime": 112,
+  "director": "Andy Tennant"
  },
  "lb-20n8": {
   "imdb_id": "tt0780536",
   "rating": 7.9,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 107
+  "runtime": 107,
+  "director": "Martin McDonagh"
  },
  "lb-1X9C": {
   "imdb_id": "tt0787475",
   "rating": 6.7,
   "genres": "Comedy, Sport",
-  "runtime": 88
+  "runtime": 88,
+  "director": "Akiva Schaffer"
  },
  "lb-bTpm": {
   "imdb_id": "tt0787524",
   "rating": 7.2,
   "genres": "Biography, Drama",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Matt Brown"
  },
  "lb-4O8G": {
   "imdb_id": "tt0790636",
   "rating": 7.9,
   "genres": "Biography, Drama",
-  "runtime": 117
+  "runtime": 117,
+  "director": "Jean-Marc Vall\u00e9e"
  },
  "lb-21tG": {
   "imdb_id": "tt0805564",
   "rating": 7.3,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Craig Gillespie"
  },
  "lb-23wW": {
   "imdb_id": "tt0851578",
   "rating": 7.7,
   "genres": "Animation, Drama, Fantasy",
-  "runtime": 90
+  "runtime": 90,
+  "director": "Satoshi Kon"
  },
  "lb-zkzu": {
   "imdb_id": "tt0881953",
   "rating": 9.0,
   "genres": "Biography, Documentary",
-  "runtime": 60
+  "runtime": 60,
+  "director": "Bruce Wuth"
  },
  "lb-23BW": {
   "imdb_id": "tt0887883",
   "rating": 7.0,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 96
+  "runtime": 96,
+  "director": "Ethan Coen, Joel Coen"
  },
  "lb-1VEo": {
   "imdb_id": "tt0910970",
   "rating": 8.4,
   "genres": "Adventure, Animation, Family",
-  "runtime": 98
+  "runtime": 98,
+  "director": "Andrew Stanton"
  },
  "lb-1yOq": {
   "imdb_id": "tt0920457",
   "rating": 7.3,
   "genres": "Action, Thriller",
-  "runtime": 130
+  "runtime": 130,
+  "director": "Vishnuvardhan"
  },
  "lb-1yYg": {
   "imdb_id": "tt0978764",
   "rating": 6.1,
   "genres": "Action, Adventure, Fantasy",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Zack Snyder"
  },
  "lb-1Wso": {
   "imdb_id": "tt0986233",
   "rating": 7.5,
   "genres": "Biography, Crime, Drama",
-  "runtime": 96
+  "runtime": 96,
+  "director": "Steve McQueen"
  },
  "lb-lPBS": {
   "imdb_id": "tt10128846",
   "rating": 4.6,
   "genres": "Drama, Fantasy, Sci-Fi",
-  "runtime": 138
+  "runtime": 138,
+  "director": "Francis Ford Coppola"
  },
  "lb-JfvM": {
   "imdb_id": "tt10133702",
   "rating": 7.9,
   "genres": "Animation, Documentary",
-  "runtime": 79
+  "runtime": 79,
+  "director": "L\u00e1szl\u00f3 Cs\u00e1ki"
  },
  "lb-8jak": {
   "imdb_id": "tt1020072",
   "rating": 7.5,
   "genres": "Biography, Drama, History",
-  "runtime": 128
+  "runtime": 128,
+  "director": "Ava DuVernay"
  },
  "lb-1EmM": {
   "imdb_id": "tt1022603",
   "rating": 7.6,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 95
+  "runtime": 95,
+  "director": "Marc Webb"
  },
  "lb-n0w2": {
   "imdb_id": "tt10417622",
   "rating": 7.2,
   "genres": "Action",
-  "runtime": 82
+  "runtime": 82,
+  "director": "Nabwana I.G.G."
  },
  "lb-b2La": {
   "imdb_id": "tt3741834",
   "rating": 8.0,
   "genres": "Biography, Drama",
-  "runtime": 118
+  "runtime": 118,
+  "director": "Garth Davis"
  },
  "lb-kOf0": {
   "imdb_id": "tt7798634",
   "rating": 6.9,
   "genres": "Comedy, Horror, Mystery",
-  "runtime": 95
+  "runtime": 95,
+  "director": "Matt Bettinelli-Olpin, Tyler Gillett"
  },
  "lb-pg7m": {
   "imdb_id": "tt10474606",
   "rating": 6.8,
   "genres": "Adventure, Animation, Comedy",
-  "runtime": 69
+  "runtime": 69,
+  "director": "Daniel Chong, Manny Hernandez, Lauren Sassen"
  },
  "lb-mIEM": {
   "imdb_id": "tt10621032",
   "rating": 6.9,
   "genres": "Action, Adventure, Animation",
-  "runtime": 93
+  "runtime": 93,
+  "director": "Takashi Yamazaki"
  },
  "lb-20OS": {
   "imdb_id": "tt1063669",
   "rating": 7.6,
   "genres": "Drama, Thriller",
-  "runtime": 107
+  "runtime": 107,
+  "director": "Dennis Gansel"
  },
  "lb-kn3w": {
   "imdb_id": "tt1070874",
   "rating": 7.7,
   "genres": "Drama, History, Thriller",
-  "runtime": 129
+  "runtime": 129,
+  "director": "Aaron Sorkin"
  },
  "lb-el3M": {
   "imdb_id": "tt5859238",
   "rating": 7.3,
   "genres": "Comedy, Drama, Western",
-  "runtime": 88
+  "runtime": 88,
+  "director": "John Carroll Lynch"
  },
  "lb-vl2e": {
   "imdb_id": "tt1075404",
   "rating": 7.2,
   "genres": "Documentary",
-  "runtime": 25
+  "runtime": 25,
+  "director": "Steven Hore"
  },
  "lb-icFU": {
   "imdb_id": "tt7984734",
   "rating": 7.3,
   "genres": "Drama, Fantasy, Horror",
-  "runtime": 109
+  "runtime": 109,
+  "director": "Robert Eggers"
  },
  "lb-1GS6": {
   "imdb_id": "tt1111422",
   "rating": 6.4,
   "genres": "Action, Crime, Thriller",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Tony Scott"
  },
  "lb-uo2u": {
   "imdb_id": "tt11127680",
   "rating": 7.5,
   "genres": "Drama, Thriller",
-  "runtime": 92
+  "runtime": 92,
+  "director": "Philip Barantini"
  },
  "lb-MxG": {
   "imdb_id": "tt1120985",
   "rating": 7.3,
   "genres": "Drama, Romance",
-  "runtime": 112
+  "runtime": 112,
+  "director": "Derek Cianfrance"
  },
  "lb-1WyG": {
   "imdb_id": "tt1124035",
   "rating": 7.1,
   "genres": "Drama, Thriller",
-  "runtime": 101
+  "runtime": 101,
+  "director": "George Clooney"
  },
  "lb-1Efw": {
   "imdb_id": "tt1131734",
   "rating": 5.6,
   "genres": "Comedy, Horror",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Karyn Kusama"
  },
  "lb-oBYa": {
   "imdb_id": "tt11563598",
   "rating": 7.3,
   "genres": "Biography, Drama, Music",
-  "runtime": 141
+  "runtime": 141,
+  "director": "James Mangold"
  },
  "lb-6FE8": {
   "imdb_id": "tt2884018",
   "rating": 6.6,
   "genres": "Drama, History, War",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Justin Kurzel"
  },
  "lb-k8zW": {
   "imdb_id": "tt5541186",
   "rating": 6.0,
   "genres": "Drama",
-  "runtime": 92
+  "runtime": 92,
+  "director": "Angus Benfield"
  },
  "lb-1Eo4": {
   "imdb_id": "tt1188729",
   "rating": 6.7,
   "genres": "Action, Horror, Mystery",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Christian Alvart"
  },
  "lb-pEeQ": {
   "imdb_id": "tt12042730",
   "rating": 8.2,
   "genres": "Adventure, Comedy, Sci-Fi",
-  "runtime": 156
+  "runtime": 156,
+  "director": "Phil Lord, Christopher Miller"
  },
  "lb-1zg": {
   "imdb_id": "tt1204342",
   "rating": 7.1,
   "genres": "Adventure, Comedy, Family",
-  "runtime": 103
+  "runtime": 103,
+  "director": "James Bobin"
  },
  "lb-AJsU": {
   "imdb_id": "tt4470296",
   "rating": 6.5,
   "genres": "Drama, Short",
-  "runtime": 11
+  "runtime": 11,
+  "director": "Charlotte Wells"
  },
  "lb-ngU": {
   "imdb_id": "tt1210819",
   "rating": 6.4,
   "genres": "Action, Adventure, Drama",
-  "runtime": 150
+  "runtime": 150,
+  "director": "Gore Verbinski"
  },
  "lb-cPym": {
   "imdb_id": "tt1213641",
   "rating": 7.3,
   "genres": "Biography, Drama, History",
-  "runtime": 141
+  "runtime": 141,
+  "director": "Damien Chazelle"
  },
  "lb-1pVC": {
   "imdb_id": "tt1449175",
   "rating": 8.1,
   "genres": "Drama",
-  "runtime": 180
+  "runtime": 180,
+  "director": "Gregory Doran"
  },
  "lb-1EsA": {
   "imdb_id": "tt1226774",
   "rating": 7.4,
   "genres": "Comedy",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Armando Iannucci"
  },
  "lb-16Nu": {
   "imdb_id": "tt1237838",
   "rating": 6.6,
   "genres": "Comedy, Crime, Mystery",
-  "runtime": 97
+  "runtime": 97,
+  "director": "Dan Eckman"
  },
  "lb-m0T4": {
   "imdb_id": "tt9683478",
   "rating": 6.9,
   "genres": "Comedy, Drama",
-  "runtime": 104
+  "runtime": 104,
+  "director": "Alice Wu"
  },
  "lb-17ue": {
   "imdb_id": "tt1285016",
   "rating": 7.8,
   "genres": "Biography, Drama",
-  "runtime": 120
+  "runtime": 120,
+  "director": "David Fincher"
  },
  "lb-hJAw": {
   "imdb_id": "tt7653254",
   "rating": 7.9,
   "genres": "Drama, Romance",
-  "runtime": 137
+  "runtime": 137,
+  "director": "Noah Baumbach"
  },
  "lb-shJM": {
   "imdb_id": "tt13287846",
   "rating": 6.3,
   "genres": "Action, Adventure, Biography",
-  "runtime": 158
+  "runtime": 158,
+  "director": "Ridley Scott"
  },
  "lb-pzxy": {
   "imdb_id": "tt13288678",
   "rating": 6.6,
   "genres": "Action, Animation, Drama",
-  "runtime": 95
+  "runtime": 95,
+  "director": "Sh\u00fbk\u00f4 Murase"
  },
  "lb-18do": {
   "imdb_id": "tt1341167",
   "rating": 7.2,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 97
+  "runtime": 97,
+  "director": "Christopher Morris"
  },
  "lb-Glua": {
   "imdb_id": "tt1341338",
   "rating": 7.0,
   "genres": "Action, Adventure, Comedy",
-  "runtime": 134
+  "runtime": 134,
+  "director": "Gore Verbinski"
  },
  "lb-Sog": {
   "imdb_id": "tt1403865",
   "rating": 7.6,
   "genres": "Drama, Western",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Ethan Coen, Joel Coen"
  },
  "lb-2XOi": {
   "imdb_id": "tt1405365",
   "rating": 6.6,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 92
+  "runtime": 92,
+  "director": "Lee Toland Krieger"
  },
  "lb-u6Eq": {
   "imdb_id": "tt14114802",
   "rating": 7.2,
   "genres": "Crime, Drama, Mystery",
-  "runtime": 105
+  "runtime": 105,
+  "director": "Graham Moore"
  },
  "lb-2CWU": {
   "imdb_id": "tt1430132",
   "rating": 6.7,
   "genres": "Action, Sci-Fi, Thriller",
-  "runtime": 126
+  "runtime": 126,
+  "director": "James Mangold"
  },
  "lb-2s9e": {
   "imdb_id": "tt1446714",
   "rating": 7.0,
   "genres": "Adventure, Sci-Fi",
-  "runtime": 124
+  "runtime": 124,
+  "director": "Ridley Scott"
  },
  "lb-DOV4": {
   "imdb_id": "tt14577874",
   "rating": 6.6,
   "genres": "Comedy, Mystery, Sci-Fi",
-  "runtime": 103
+  "runtime": 103,
+  "director": "Greg Jardin"
  },
  "lb-vf2C": {
   "imdb_id": "tt14636170",
   "rating": 6.4,
   "genres": "Animation, Comedy, Music",
-  "runtime": 83
+  "runtime": 83,
+  "director": "Brendon Small"
  },
  "lb-vf2i": {
   "imdb_id": "tt14636186",
   "rating": 7.8,
   "genres": "Action, Adventure, Animation",
-  "runtime": 83
+  "runtime": 83,
+  "director": "Christopher McCulloch"
  },
  "lb-vwpe": {
   "imdb_id": "tt14775784",
   "rating": 7.5,
   "genres": "Drama",
-  "runtime": 116
+  "runtime": 116,
+  "director": "Sebastian Meise"
  },
  "lb-hFO": {
   "imdb_id": "tt1478964",
   "rating": 6.6,
   "genres": "Action, Adventure, Comedy",
-  "runtime": 88
+  "runtime": 88,
+  "director": "Joe Cornish"
  },
  "lb-LnyS": {
   "imdb_id": "tt1493274",
   "rating": 6.8,
   "genres": "Comedy, Crime, Thriller",
-  "runtime": 107
+  "runtime": 107,
+  "director": "Darren Aronofsky"
  },
  "lb-dX0": {
   "imdb_id": "tt1504320",
   "rating": 8.0,
   "genres": "Biography, Drama, History",
-  "runtime": 118
+  "runtime": 118,
+  "director": "Tom Hooper"
  },
  "lb-FIFe": {
   "imdb_id": "tt15067890",
   "rating": 5.4,
   "genres": "Drama, Thriller",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Bartek Bala"
  },
  "lb-tt94": {
   "imdb_id": "tt15242330",
   "rating": 8.0,
   "genres": "Animation, Comedy, Drama",
-  "runtime": 124
+  "runtime": 124,
+  "director": "Takehiko Inoue"
  },
  "lb-wMAk": {
   "imdb_id": "tt15339456",
   "rating": 7.6,
   "genres": "Animation, Comedy, Drama",
-  "runtime": 90
+  "runtime": 90,
+  "director": "Dean Fleischer Camp"
  },
  "lb-S6iW": {
   "imdb_id": "tt35114460",
   "rating": 6.2,
   "genres": "Action, Adventure, Animation",
-  "runtime": 111
+  "runtime": 111,
+  "director": "Mamoru Hosoda"
  },
  "lb-CPZE": {
   "imdb_id": "tt29615160",
   "rating": 6.0,
   "genres": "Adventure, Animation, Family",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Busifan"
  },
  "lb-2Pa": {
   "imdb_id": "tt1568346",
   "rating": 7.8,
   "genres": "Crime, Drama, Mystery",
-  "runtime": 158
+  "runtime": 158,
+  "director": "David Fincher"
  },
  "lb-xG0M": {
   "imdb_id": "tt15799564",
   "rating": 8.2,
   "genres": "Action, Comedy, Crime",
-  "runtime": 118
+  "runtime": 118,
+  "director": "Martin McDonagh"
  },
  "lb-BgO": {
   "imdb_id": "tt1596343",
   "rating": 7.3,
   "genres": "Action, Crime, Thriller",
-  "runtime": 130
+  "runtime": 130,
+  "director": "Justin Lin"
  },
  "lb-5hII": {
   "imdb_id": "tt1605717",
   "rating": 6.9,
   "genres": "Comedy, Drama, Music",
-  "runtime": 95
+  "runtime": 95,
+  "director": "Lenny Abrahamson"
  },
  "lb-i4a": {
   "imdb_id": "tt1605783",
   "rating": 7.6,
   "genres": "Comedy, Fantasy, Romance",
-  "runtime": 94
+  "runtime": 94,
+  "director": "Woody Allen"
  },
  "lb-2cAI": {
   "imdb_id": "tt1623205",
   "rating": 6.3,
   "genres": "Adventure, Family, Fantasy",
-  "runtime": 130
+  "runtime": 130,
+  "director": "Sam Raimi"
  },
  "lb-y9aw": {
   "imdb_id": "tt16277242",
   "rating": 7.8,
   "genres": "Adventure, Biography, Drama",
-  "runtime": 144
+  "runtime": 144,
+  "director": "J.A. Bayona"
  },
  "lb-4pD0": {
   "imdb_id": "tt1631867",
   "rating": 7.9,
   "genres": "Action, Adventure, Sci-Fi",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Doug Liman"
  },
  "lb-67lG": {
   "imdb_id": "tt1638355",
   "rating": 7.2,
   "genres": "Action, Adventure, Comedy",
-  "runtime": 116
+  "runtime": 116,
+  "director": "Guy Ritchie"
  },
  "lb-2CxU": {
   "imdb_id": "tt1723811",
   "rating": 7.2,
   "genres": "Drama",
-  "runtime": 101
+  "runtime": 101,
+  "director": "Steve McQueen"
  },
  "lb-e96u": {
   "imdb_id": "tt1666185",
   "rating": 5.9,
   "genres": "Biography, Drama, Music",
-  "runtime": 139
+  "runtime": 139,
+  "director": "Benny Boom"
  },
  "lb-Aoi": {
   "imdb_id": "tt1703049",
   "rating": 7.4,
   "genres": "Action, Animation, Drama",
-  "runtime": 90
+  "runtime": 90,
+  "director": "Satoshi Nishimura"
  },
  "lb-IQ": {
   "imdb_id": "tt1764234",
   "rating": 6.2,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 97
+  "runtime": 97,
+  "director": "Andrew Dominik"
  },
  "lb-5YPM": {
   "imdb_id": "tt1790864",
   "rating": 6.8,
   "genres": "Action, Mystery, Sci-Fi",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Wes Ball"
  },
  "lb-493A": {
   "imdb_id": "tt1816518",
   "rating": 7.8,
   "genres": "Adventure, Animation, Comedy",
-  "runtime": 80
+  "runtime": 80,
+  "director": "St\u00e9phane Aubier, Vincent Patar, Benjamin Renner"
  },
  "lb-4exq": {
   "imdb_id": "tt1821549",
   "rating": 7.7,
   "genres": "Drama",
-  "runtime": 115
+  "runtime": 115,
+  "director": "Alexander Payne"
  },
  "lb-3w9O": {
   "imdb_id": "tt1839492",
   "rating": 7.2,
   "genres": "Comedy, Drama, Fantasy",
-  "runtime": 104
+  "runtime": 104,
+  "director": "Jonathan Dayton, Valerie Faris"
  },
  "lb-3hBy": {
   "imdb_id": "tt1872204",
   "rating": 7.1,
   "genres": "Adventure, Biography, Documentary",
-  "runtime": 46
+  "runtime": 46,
+  "director": ""
  },
  "lb-34PW": {
   "imdb_id": "tt1931533",
   "rating": 7.1,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Martin McDonagh"
  },
  "lb-Arw0": {
   "imdb_id": "tt19770238",
   "rating": 7.6,
   "genres": "Drama",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Charlotte Wells"
  },
  "lb-zBhi": {
   "imdb_id": "tt9016942",
   "rating": 5.8,
   "genres": "Short",
-  "runtime": 11
+  "runtime": 11,
+  "director": "Manon Eyriey"
  },
  "lb-2D2e": {
   "imdb_id": "tt2024544",
   "rating": 8.1,
   "genres": "Biography, Drama, History",
-  "runtime": 134
+  "runtime": 134,
+  "director": "Steve McQueen"
  },
  "lb-5Fle": {
   "imdb_id": "tt2054790",
   "rating": 6.1,
   "genres": "Drama, History",
-  "runtime": 122
+  "runtime": 122,
+  "director": "Arnaud des Palli\u00e8res"
  },
  "lb-hCY2": {
   "imdb_id": "tt2396224",
   "rating": 8.2,
   "genres": "Animation, Comedy, Drama",
-  "runtime": 62
+  "runtime": 62,
+  "director": "Don Hertzfeldt"
  },
  "lb-araG": {
   "imdb_id": "tt2080374",
   "rating": 7.2,
   "genres": "Biography, Drama",
-  "runtime": 122
+  "runtime": 122,
+  "director": "Danny Boyle"
  },
  "lb-ByjY": {
   "imdb_id": "tt21188080",
   "rating": 6.1,
   "genres": "Comedy, Horror, Romance",
-  "runtime": 101
+  "runtime": 101,
+  "director": "Zelda Williams"
  },
  "lb-azew": {
   "imdb_id": "tt2119532",
   "rating": 8.1,
   "genres": "Biography, Drama, History",
-  "runtime": 139
+  "runtime": 139,
+  "director": "Mel Gibson"
  },
  "lb-uqVQ": {
   "imdb_id": "tt21651430",
   "rating": 6.3,
   "genres": "Comedy",
-  "runtime": 92
+  "runtime": 92,
+  "director": "Vera Drew"
  },
  "lb-3G6K": {
   "imdb_id": "tt2193215",
   "rating": 5.4,
   "genres": "Action, Adventure, Crime",
-  "runtime": 117
+  "runtime": 117,
+  "director": "Ridley Scott"
  },
  "lb-43bI": {
   "imdb_id": "tt2194499",
   "rating": 7.8,
   "genres": "Comedy, Drama, Fantasy",
-  "runtime": 123
+  "runtime": 123,
+  "director": "Richard Curtis"
  },
  "lb-Di3O": {
   "imdb_id": "tt22245582",
   "rating": 6.9,
   "genres": "Documentary",
-  "runtime": 74
+  "runtime": 74,
+  "director": "Joshua Bailey"
  },
  "lb-D8ME": {
   "imdb_id": "tt22740896",
   "rating": 6.6,
   "genres": "Comedy, Romance",
-  "runtime": 117
+  "runtime": 117,
+  "director": "Brett Haley"
  },
  "lb-EWDE": {
   "imdb_id": "tt22803220",
   "rating": 6.4,
   "genres": "Drama",
-  "runtime": 99
+  "runtime": 99,
+  "director": "Luke Gilford"
  },
  "lb-KzLM": {
   "imdb_id": "tt23468450",
   "rating": 6.5,
   "genres": "Crime, Horror, Mystery",
-  "runtime": 101
+  "runtime": 101,
+  "director": "Osgood Perkins"
  },
  "lb-2i28": {
   "imdb_id": "tt2355791",
   "rating": 7.7,
   "genres": "Action, Crime, Drama",
-  "runtime": 150
+  "runtime": 150,
+  "director": "Vetrimaaran"
  },
  "lb-5f6s": {
   "imdb_id": "tt2370248",
   "rating": 7.9,
   "genres": "Drama",
-  "runtime": 96
+  "runtime": 96,
+  "director": "Destin Daniel Cretton"
  },
  "lb-lScm": {
   "imdb_id": "tt9764362",
   "rating": 7.1,
   "genres": "Comedy, Horror, Thriller",
-  "runtime": 107
+  "runtime": 107,
+  "director": "Mark Mylod"
  },
  "lb-5bdk": {
   "imdb_id": "tt2381111",
   "rating": 7.5,
   "genres": "Drama, Romance",
-  "runtime": 117
+  "runtime": 117,
+  "director": "John Crowley"
  },
  "lb-7DPK": {
   "imdb_id": "tt2402927",
   "rating": 7.3,
   "genres": "Drama, Romance",
-  "runtime": 118
+  "runtime": 118,
+  "director": "Todd Haynes"
  },
  "lb-D4g0": {
   "imdb_id": "tt24082488",
   "rating": 7.4,
   "genres": "Documentary",
-  "runtime": 85
+  "runtime": 85,
+  "director": "Maite Alberdi"
  },
  "lb-4uK6": {
   "imdb_id": "tt2468774",
   "rating": 7.0,
   "genres": "Action, Crime, Mystery",
-  "runtime": 119
+  "runtime": 119,
+  "director": "Jung Byung-gil"
  },
  "lb-iEBG": {
   "imdb_id": "tt2584384",
   "rating": 7.9,
   "genres": "Comedy, Drama, War",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Taika Waititi"
  },
  "lb-EzDG": {
   "imdb_id": "tt26084002",
   "rating": 6.0,
   "genres": "Comedy, Thriller",
-  "runtime": 85
+  "runtime": 85,
+  "director": "Jake Johnson"
  },
  "lb-62Te": {
   "imdb_id": "tt2717822",
   "rating": 5.5,
   "genres": "Action, Crime, Thriller",
-  "runtime": 133
+  "runtime": 133,
+  "director": "Michael Mann"
  },
  "lb-E3vU": {
   "imdb_id": "tt27369017",
   "rating": 6.6,
   "genres": "Action, Horror, Sci-Fi",
-  "runtime": 157
+  "runtime": 157,
+  "director": "Na Hong-jin"
  },
  "lb-ATh8": {
   "imdb_id": "tt27503384",
   "rating": 7.9,
   "genres": "Drama",
-  "runtime": 124
+  "runtime": 124,
+  "director": "Wim Wenders"
  },
  "lb-G22Q": {
   "imdb_id": "tt27830613",
   "rating": 7.6,
   "genres": "Animation, Fantasy, Romance",
-  "runtime": null
+  "runtime": null,
+  "director": "Alice Mao, Sophia Paez"
  },
  "lb-X3MY": {
   "imdb_id": "tt37967547",
   "rating": 6.9,
   "genres": "Biography, Drama, Thriller",
-  "runtime": 116
+  "runtime": 116,
+  "director": "Danny Boyle"
  },
  "lb-9yzm": {
   "imdb_id": "tt2798920",
   "rating": 6.8,
   "genres": "Adventure, Drama, Horror",
-  "runtime": 115
+  "runtime": 115,
+  "director": "Alex Garland"
  },
  "lb-CYvI": {
   "imdb_id": "tt28036831",
   "rating": 6.6,
   "genres": "Animation, Drama, Family",
-  "runtime": 97
+  "runtime": 97,
+  "director": "Y\u00f4ko Kuno, Nobuhiro Yamashita"
  },
  "lb-rnUa": {
   "imdb_id": "tt29279903",
   "rating": 6.8,
   "genres": "Drama, Fantasy, Sci-Fi",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Neo Sora"
  },
  "lb-81lO": {
   "imdb_id": "tt2844798",
   "rating": 6.8,
   "genres": "Adventure, Drama, Thriller",
-  "runtime": 121
+  "runtime": 121,
+  "director": "Korn\u00e9l Mundrucz\u00f3"
  },
  "lb-fxu8": {
   "imdb_id": "tt6164502",
   "rating": 7.1,
   "genres": "Drama, Fantasy, Horror",
-  "runtime": 115
+  "runtime": 115,
+  "director": "Rainer Sarnet"
  },
  "lb-x9DG": {
   "imdb_id": "tt29002950",
   "rating": 7.2,
   "genres": "Drama, Sci-Fi",
-  "runtime": 160
+  "runtime": 160,
+  "director": "Bi Gan"
  },
  "lb-NTi2": {
   "imdb_id": "tt29028515",
   "rating": 7.2,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 90
+  "runtime": 90,
+  "director": "Cal McMau"
  },
  "lb-MZBM": {
   "imdb_id": "tt29344903",
   "rating": 7.0,
   "genres": "Comedy, Drama, Horror",
-  "runtime": 109
+  "runtime": 109,
+  "director": "Emilie Blichfeldt"
  },
  "lb-adWG": {
   "imdb_id": "tt2979920",
   "rating": 5.5,
   "genres": "Action, Crime, Drama",
-  "runtime": 149
+  "runtime": 149,
+  "director": "Anurag Kashyap"
  },
  "lb-K5fQ": {
   "imdb_id": "tt30294282",
   "rating": 7.1,
   "genres": "Documentary, War",
-  "runtime": 87
+  "runtime": 87,
+  "director": "Brendan Bellomo, Slava Leontyev"
  },
  "lb-KBIU": {
   "imdb_id": "tt30827810",
   "rating": 6.6,
   "genres": "Adventure, Comedy, Crime",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Boots Riley"
  },
  "lb-a8oE": {
   "imdb_id": "tt4023894",
   "rating": 5.7,
   "genres": "Crime, Drama, Thriller",
-  "runtime": 103
+  "runtime": 103,
+  "director": "Jai-hong Juhn"
  },
  "lb-NsY6": {
   "imdb_id": "tt33550069",
   "rating": 6.6,
   "genres": "Action, Comedy, Crime",
-  "runtime": 136
+  "runtime": 136,
+  "director": "Byun Sung-hyun"
  },
  "lb-6CwK": {
   "imdb_id": "tt3205376",
   "rating": 6.9,
   "genres": "Adventure, Drama, Romance",
-  "runtime": 84
+  "runtime": 84,
+  "director": "John Maclean"
  },
  "lb-N8by": {
   "imdb_id": "tt32332915",
   "rating": 5.8,
   "genres": "Comedy, Romance",
-  "runtime": 90
+  "runtime": 90,
+  "director": "Gregg Araki"
  },
  "lb-ydFI": {
   "imdb_id": "tt32915652",
   "rating": 6.6,
   "genres": "Action, Animation, Drama",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Sh\u00fbk\u00f4 Murase"
  },
  "lb-OA2w": {
   "imdb_id": "tt33071426",
   "rating": 7.1,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 105
+  "runtime": 105,
+  "director": "Kristoffer Borgli"
  },
  "lb-SBU8": {
   "imdb_id": "tt35515220",
   "rating": 7.1,
   "genres": "Comedy, Drama, Fantasy",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Annapurna Sriram"
  },
  "lb-SUeq": {
   "imdb_id": "tt35672862",
   "rating": 6.6,
   "genres": "Horror, Thriller",
-  "runtime": 107
+  "runtime": 107,
+  "director": "Damian McCarthy"
  },
  "lb-TbG2": {
   "imdb_id": "tt35866986",
   "rating": null,
   "genres": "Action, Comedy, Crime",
-  "runtime": 122
+  "runtime": 122,
+  "director": "David Leitch"
  },
  "lb-UjYU": {
   "imdb_id": "tt36589928",
   "rating": 6.6,
   "genres": "Comedy, Drama, Thriller",
-  "runtime": 96
+  "runtime": 96,
+  "director": "Oscar Boyson"
  },
  "lb-FJZa": {
   "imdb_id": "tt36642485",
   "rating": 7.0,
   "genres": "Drama",
-  "runtime": 217
+  "runtime": 217,
+  "director": "Pedro Pinho"
  },
  "lb-i4qi": {
   "imdb_id": "tt3689894",
   "rating": 6.9,
   "genres": "Action, Adventure, Animation",
-  "runtime": 130
+  "runtime": 130,
+  "director": "Takao Kato, Yutaka Izubuchi"
  },
  "lb-e5dG": {
   "imdb_id": "tt4481414",
   "rating": 7.6,
   "genres": "Drama",
-  "runtime": 101
+  "runtime": 101,
+  "director": "Marc Webb"
  },
  "lb-Hgte": {
   "imdb_id": "tt37284198",
   "rating": 8.1,
   "genres": "Action, Adventure, Animation",
-  "runtime": 120
+  "runtime": 120,
+  "director": "Jie Gu, Mtjj"
  },
  "lb-VxrW": {
   "imdb_id": "tt37671737",
   "rating": 6.2,
   "genres": "Comedy, Horror",
-  "runtime": 93
+  "runtime": 93,
+  "director": "Simon Glassman"
  },
  "lb-a5fa": {
   "imdb_id": "tt3783958",
   "rating": 8.0,
   "genres": "Comedy, Drama, Music",
-  "runtime": 128
+  "runtime": 128,
+  "director": "Damien Chazelle"
  },
  "lb-94Hg": {
   "imdb_id": "tt3799694",
   "rating": 7.4,
   "genres": "Action, Comedy, Crime",
-  "runtime": 116
+  "runtime": 116,
+  "director": "Shane Black"
  },
  "lb-Z6lK": {
   "imdb_id": "tt38058097",
   "rating": 8.1,
   "genres": "Comedy, Drama",
-  "runtime": 122
+  "runtime": 122,
+  "director": "Jordan Firstman"
  },
  "lb-bDw2": {
   "imdb_id": "tt3829266",
   "rating": 5.3,
   "genres": "Action, Adventure, Sci-Fi",
-  "runtime": 107
+  "runtime": 107,
+  "director": "Shane Black"
  },
  "lb-f5eG": {
   "imdb_id": "tt5040012",
   "rating": 7.1,
   "genres": "Fantasy, Horror, Mystery",
-  "runtime": 132
+  "runtime": 132,
+  "director": "Robert Eggers"
  },
  "lb-bhF2": {
   "imdb_id": "tt3890160",
   "rating": 7.5,
   "genres": "Action, Crime, Drama",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Edgar Wright"
  },
  "lb-YjUw": {
   "imdb_id": "tt39143902",
   "rating": 6.4,
   "genres": "Horror, Romance, Sci-Fi",
-  "runtime": 88
+  "runtime": 88,
+  "director": "Adrian Chiarella"
  },
  "lb-UvqK": {
   "imdb_id": "tt39150578",
-  "rating": 6.7,
+  "rating": 6.8,
   "genres": "",
-  "runtime": 105
+  "runtime": 105,
+  "director": "Ryo Fujii"
  },
  "lb-10Me4": {
   "imdb_id": "tt39368189",
   "rating": 6.4,
   "genres": "Action, Drama, Music",
-  "runtime": 91
+  "runtime": 91,
+  "director": "Danny Madden"
  },
  "lb-10lQK": {
   "imdb_id": "tt39369854",
   "rating": 8.3,
   "genres": "Documentary",
-  "runtime": 531
+  "runtime": 531,
+  "director": "Haile Gerima"
  },
  "lb-dXFW": {
   "imdb_id": "tt4434004",
   "rating": 7.7,
   "genres": "Crime, Drama",
-  "runtime": 148
+  "runtime": 148,
+  "director": "Abhishek Chaubey"
  },
  "lb-37o": {
   "imdb_id": "tt4641774",
   "rating": 8.4,
   "genres": "Action, Adventure, Animation",
-  "runtime": 120
+  "runtime": 120,
+  "director": "Eric Radomski"
  },
  "lb-jBYE": {
   "imdb_id": "tt4943998",
   "rating": 7.3,
   "genres": "Drama, Western",
-  "runtime": 110
+  "runtime": 110,
+  "director": "Daniel Minahan"
  },
  "lb-d6bE": {
   "imdb_id": "tt4975722",
   "rating": 7.4,
   "genres": "Drama",
-  "runtime": 111
+  "runtime": 111,
+  "director": "Barry Jenkins"
  },
  "lb-d0Y6": {
   "imdb_id": "tt5013056",
   "rating": 7.8,
   "genres": "Action, Drama, History",
-  "runtime": 106
+  "runtime": 106,
+  "director": "Christopher Nolan"
  },
  "lb-eOCm": {
   "imdb_id": "tt5052448",
   "rating": 7.8,
   "genres": "Horror, Mystery, Thriller",
-  "runtime": 104
+  "runtime": 104,
+  "director": "Jordan Peele"
  },
  "lb-cRk2": {
   "imdb_id": "tt5247022",
   "rating": 7.3,
   "genres": "Comedy, Drama, Romance",
-  "runtime": 118
+  "runtime": 118,
+  "director": "Jim Jarmusch"
  },
  "lb-i7Q4": {
   "imdb_id": "tt5363618",
   "rating": 7.7,
   "genres": "Drama, Music",
-  "runtime": 120
+  "runtime": 120,
+  "director": "Darius Marder"
  },
  "lb-el3C": {
   "imdb_id": "tt5390504",
   "rating": 7.3,
   "genres": "Crime, Drama, History",
-  "runtime": 143
+  "runtime": 143,
+  "director": "Kathryn Bigelow"
  },
  "lb-f21E": {
   "imdb_id": "tt5688932",
   "rating": 6.9,
   "genres": "Comedy, Drama, Fantasy",
-  "runtime": 112
+  "runtime": 112,
+  "director": "Boots Riley"
  },
  "lb-dSAs": {
   "imdb_id": "tt5691670",
   "rating": 6.5,
   "genres": "Crime, Mystery, Thriller",
-  "runtime": 139
+  "runtime": 139,
+  "director": "David Robert Mitchell"
  },
  "lb-ivlu": {
   "imdb_id": "tt5714216",
   "rating": 7.9,
   "genres": "Action, Adventure, Animation",
-  "runtime": 116
+  "runtime": 116,
+  "director": "Noriyuki Abe"
  },
  "lb-fw6O": {
   "imdb_id": "tt6334354",
   "rating": 7.2,
   "genres": "Action, Adventure, Comedy",
-  "runtime": 132
+  "runtime": 132,
+  "director": "James Gunn"
  },
  "lb-jUk4": {
   "imdb_id": "tt6710474",
   "rating": 7.7,
   "genres": "Action, Adventure, Comedy",
-  "runtime": 139
+  "runtime": 139,
+  "director": "Daniel Kwan, Daniel Scheinert"
  },
  "lb-jQgW": {
   "imdb_id": "tt6748030",
   "rating": 6.3,
   "genres": "Action, Adventure, Comedy",
-  "runtime": 78
+  "runtime": 78,
+  "director": "Ryland Brickson Cole Tews"
  },
  "lb-glVo": {
   "imdb_id": "tt6868216",
   "rating": 7.3,
   "genres": "Comedy, Crime, Mystery",
-  "runtime": 88
+  "runtime": 88,
+  "director": "Steve Franks"
  },
  "lb-kdrI": {
   "imdb_id": "tt7458798",
   "rating": 5.9,
   "genres": "Comedy, Drama",
-  "runtime": 104
+  "runtime": 104,
+  "director": "Lucas Bernard"
  },
  "lb-if7w": {
   "imdb_id": "tt7466442",
   "rating": 7.0,
   "genres": "Adventure, Animation, Comedy",
-  "runtime": 102
+  "runtime": 102,
+  "director": "Loren Bouchard, Bernard Derriman"
  },
  "lb-iEEq": {
   "imdb_id": "tt7775622",
   "rating": 8.1,
   "genres": "Adventure, Documentary, Sport",
-  "runtime": 100
+  "runtime": 100,
+  "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi"
  },
  "lb-jtPE": {
   "imdb_id": "tt8108200",
   "rating": 7.9,
   "genres": "Action, Crime, Drama",
-  "runtime": 143
+  "runtime": 143,
+  "director": "Abhishek Chaubey"
  },
  "lb-jiME": {
   "imdb_id": "tt8206668",
   "rating": 7.1,
   "genres": "Biography, Comedy, Crime",
-  "runtime": 108
+  "runtime": 108,
+  "director": "Cory Finley"
  },
  "lb-iM3s": {
   "imdb_id": "tt8267604",
   "rating": 8.4,
   "genres": "Drama",
-  "runtime": 126
+  "runtime": 126,
+  "director": "Nadine Labaki"
  },
  "lb-jkPq": {
   "imdb_id": "tt8613070",
   "rating": 8.0,
   "genres": "Drama, Romance",
-  "runtime": 122
+  "runtime": 122,
+  "director": "C\u00e9line Sciamma"
  },
  "lb-jz2e": {
   "imdb_id": "tt8721424",
   "rating": 7.5,
   "genres": "Biography, Comedy, Drama",
-  "runtime": 115
+  "runtime": 115,
+  "director": "Lin-Manuel Miranda"
+ },
+ "lb-jLP8": {
+  "imdb_id": "tt8847712",
+  "rating": 7.1,
+  "genres": "Comedy, Drama, Romance",
+  "runtime": 107,
+  "director": "Wes Anderson"
  },
  "lb-jOF6": {
   "imdb_id": "tt8858104",
   "rating": 6.7,
   "genres": "Comedy, Drama, Music",
-  "runtime": 55
+  "runtime": 55,
+  "director": "Hiro Murai"
  },
  "lb-jWEA": {
   "imdb_id": "tt8946378",
   "rating": 7.9,
   "genres": "Comedy, Crime, Drama",
-  "runtime": 130
+  "runtime": 130,
+  "director": "Rian Johnson"
  },
  "lb-nGVS": {
   "imdb_id": "tt9343754",
   "rating": 7.2,
   "genres": "Comedy, Drama",
-  "runtime": 98
+  "runtime": 98,
+  "director": "Prateek Vats"
  },
  "lb-loRE": {
   "imdb_id": "tt9620292",
   "rating": 7.5,
   "genres": "Crime, Drama, Mystery",
-  "runtime": 113
+  "runtime": 113,
+  "director": "Emerald Fennell"
  }
 }
