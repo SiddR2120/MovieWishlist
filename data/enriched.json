@@ -167,12 +167,6 @@
   "genres": "Drama, Romance",
   "runtime": 90
  },
- "lb-29l6": {
-  "imdb_id": "tt0052572",
-  "rating": 8.4,
-  "genres": "Drama",
-  "runtime": 105
- },
  "lb-2lkk": {
   "imdb_id": "tt0053134",
   "rating": 7.8,
@@ -2677,7 +2671,7 @@
  },
  "lb-UvqK": {
   "imdb_id": "tt39150578",
-  "rating": 6.8,
+  "rating": 6.7,
   "genres": "",
   "runtime": 105
  },
@@ -2836,12 +2830,6 @@
   "rating": 7.5,
   "genres": "Biography, Comedy, Drama",
   "runtime": 115
- },
- "lb-jLP8": {
-  "imdb_id": "tt8847712",
-  "rating": 7.1,
-  "genres": "Comedy, Drama, Romance",
-  "runtime": 107
  },
  "lb-jOF6": {
   "imdb_id": "tt8858104",
