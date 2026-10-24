@@ -10,6 +10,11 @@ on:
 permissions:
   contents: write
 
+# One run at a time, so quick back-to-back saves don't collide
+concurrency:
+  group: update-watchlist
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,6 +35,9 @@ jobs:
 
       # Fill in ratings/genres for Letterboxd-only films from IMDb's public datasets
       - name: Enrich from IMDb datasets
+        env:
+          # Full refresh (also updates ratings) on the weekly/manual run; otherwise only new films
+          ENRICH_FULL: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && '1' || '0' }}
         run: |
           python3 -u enrich.py
           python3 build.py
@@ -39,4 +47,4 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || (git commit -m "Update watchlist" && git push)
+          git diff --cached --quiet || (git commit -m "Update watchlist" && git pull --rebase && git push)
