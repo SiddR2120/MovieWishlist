@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movies to Watch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Movies to Watch</h1>
+<p><a href="reviews.html">My reviews</a></p>
+<p>
+  <input id="q" type="search" placeholder="Search title, director, genre">
+  <select id="type">
+    <option value="Movie">Movies</option>
+    <option value="">Everything</option>
+    <option value="TV">TV</option>
+  </select>
+  <select id="source">
+    <option value="">All sources</option>
+    <option value="imdb">IMDb</option>
+    <option value="letterboxd">Letterboxd</option>
+    <option value="wikipedia">Wikipedia</option>
+  </select>
+  <select id="sort">
+    <option value="added">Recently added</option>
+    <option value="title">Title</option>
+    <option value="year">Year</option>
+    <option value="rating">IMDb rating</option>
+  </select>
+  <label><input id="hide" type="checkbox" checked> Hide watched</label>
+</p>
+<p><button id="addbtn" type="button">Add a title</button></p>
+<div id="addbox" hidden>
+  <p>
+    <input id="a_title" placeholder="Title">
+    <input id="a_year" placeholder="Year" size="5">
+    <input id="a_note" placeholder="Note (optional)">
+    <button id="a_save" type="button">Add</button>
+  </p>
+  <p><small>This saves in this browser only. To make titles permanent for everyone, copy these lines into
+  <a href="https://github.com/SiddR2120/Movie-web/edit/main/data/extra.csv">data/extra.csv</a> on GitHub and commit.</small></p>
+  <p><textarea id="a_csv" rows="4" cols="60" readonly></textarea><br>
+  <button id="a_clear" type="button">Clear local additions</button></p>
+</div>
+<p id="count"></p>
+<table>
+  <thead><tr><th>Title</th><th>Year</th><th>Director</th><th>Genres</th><th>Rating</th><th>Links</th></tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+<script src="app.js"></script>
+</body>
+</html>
