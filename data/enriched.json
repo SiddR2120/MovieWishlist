@@ -223,14 +223,6 @@
   "runtime": 90,
   "director": "Louis Malle"
  },
- "lb-29l6": {
-  "imdb_id": "tt0052572",
-  "year": 1959,
-  "rating": 8.4,
-  "genres": "Drama",
-  "runtime": 105,
-  "director": "Satyajit Ray"
- },
  "lb-2lkk": {
   "imdb_id": "tt0053134",
   "year": 1959,
@@ -2514,7 +2506,7 @@
  "lb-n0w2": {
   "imdb_id": "tt10417622",
   "year": 2014,
-  "rating": 7.2,
+  "rating": 7.3,
   "genres": "Action",
   "runtime": 82,
   "director": "Nabwana I.G.G."
@@ -2930,7 +2922,7 @@
  "lb-xG0M": {
   "imdb_id": "tt15799564",
   "year": 2026,
-  "rating": 8.2,
+  "rating": 8.1,
   "genres": "Action, Comedy, Crime",
   "runtime": 118,
   "director": "Martin McDonagh"
@@ -3530,7 +3522,7 @@
  "lb-Z6lK": {
   "imdb_id": "tt38058097",
   "year": 2026,
-  "rating": 8.1,
+  "rating": 8.2,
   "genres": "Comedy, Drama",
   "runtime": 122,
   "director": "Jordan Firstman"
@@ -3783,14 +3775,6 @@
   "runtime": 115,
   "director": "Lin-Manuel Miranda"
  },
- "lb-jLP8": {
-  "imdb_id": "tt8847712",
-  "year": 2021,
-  "rating": 7.1,
-  "genres": "Comedy, Drama, Romance",
-  "runtime": 107,
-  "director": "Wes Anderson"
- },
  "lb-jOF6": {
   "imdb_id": "tt8858104",
   "year": 2019,
@@ -3855,7 +3839,6 @@
   "lb-r2Xi",
   "lb-rpRW",
   "lb-txEK",
-  "lb-zeFG",
-  "x-theapothecarydiaries"
+  "lb-zeFG"
  ]
 }
