@@ -63,14 +63,6 @@
   "runtime": 95,
   "director": "Alberto Cavalcanti, Charles Crichton, Basil Dearden"
  },
- "lb-26H4": {
-  "imdb_id": "tt0037674",
-  "year": 1945,
-  "rating": 8.3,
-  "genres": "Drama, Romance",
-  "runtime": 189,
-  "director": "Marcel Carn\u00e9"
- },
  "lb-1g4Y": {
   "imdb_id": "tt0040919",
   "year": 1948,
@@ -222,6 +214,14 @@
   "genres": "Drama, Romance",
   "runtime": 90,
   "director": "Louis Malle"
+ },
+ "lb-29l6": {
+  "imdb_id": "tt0052572",
+  "year": 1959,
+  "rating": 8.4,
+  "genres": "Drama",
+  "runtime": 105,
+  "director": "Satyajit Ray"
  },
  "lb-2lkk": {
   "imdb_id": "tt0053134",
@@ -3154,7 +3154,7 @@
  "lb-Di3O": {
   "imdb_id": "tt22245582",
   "year": 2025,
-  "rating": 6.9,
+  "rating": 6.8,
   "genres": "Documentary",
   "runtime": 74,
   "director": "Joshua Bailey"
@@ -3775,6 +3775,14 @@
   "runtime": 115,
   "director": "Lin-Manuel Miranda"
  },
+ "lb-jLP8": {
+  "imdb_id": "tt8847712",
+  "year": 2021,
+  "rating": 7.1,
+  "genres": "Comedy, Drama, Romance",
+  "runtime": 107,
+  "director": "Wes Anderson"
+ },
  "lb-jOF6": {
   "imdb_id": "tt8858104",
   "year": 2019,
@@ -3812,6 +3820,7 @@
   "lb-19c2",
   "lb-1Mn4",
   "lb-1jYA",
+  "lb-26H4",
   "lb-27Vw",
   "lb-28s6",
   "lb-29XO",
