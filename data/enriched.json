@@ -215,14 +215,6 @@
   "runtime": 90,
   "director": "Louis Malle"
  },
- "lb-29l6": {
-  "imdb_id": "tt0052572",
-  "year": 1959,
-  "rating": 8.4,
-  "genres": "Drama",
-  "runtime": 105,
-  "director": "Satyajit Ray"
- },
  "lb-2lkk": {
   "imdb_id": "tt0053134",
   "year": 1959,
@@ -2924,7 +2916,7 @@
   "year": 2026,
   "rating": 8.1,
   "genres": "Action, Comedy, Crime",
-  "runtime": 118,
+  "runtime": 116,
   "director": "Martin McDonagh"
  },
  "lb-BgO": {
@@ -3562,7 +3554,7 @@
  "lb-UvqK": {
   "imdb_id": "tt39150578",
   "year": 2025,
-  "rating": 6.7,
+  "rating": 6.8,
   "genres": "",
   "runtime": 105,
   "director": "Ryo Fujii"
@@ -3570,7 +3562,7 @@
  "lb-10Me4": {
   "imdb_id": "tt39368189",
   "year": 2026,
-  "rating": 6.4,
+  "rating": 6.3,
   "genres": "Action, Drama, Music",
   "runtime": 91,
   "director": "Danny Madden"
@@ -3774,14 +3766,6 @@
   "genres": "Biography, Comedy, Drama",
   "runtime": 115,
   "director": "Lin-Manuel Miranda"
- },
- "lb-jLP8": {
-  "imdb_id": "tt8847712",
-  "year": 2021,
-  "rating": 7.1,
-  "genres": "Comedy, Drama, Romance",
-  "runtime": 107,
-  "director": "Wes Anderson"
  },
  "lb-jOF6": {
   "imdb_id": "tt8858104",
