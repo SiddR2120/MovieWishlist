@@ -63,6 +63,14 @@
   "runtime": 95,
   "director": "Alberto Cavalcanti, Charles Crichton, Basil Dearden"
  },
+ "lb-26H4": {
+  "imdb_id": "tt0037674",
+  "year": 1945,
+  "rating": 8.3,
+  "genres": "Drama, Romance",
+  "runtime": 189,
+  "director": "Marcel Carn\u00e9"
+ },
  "lb-1g4Y": {
   "imdb_id": "tt0040919",
   "year": 1948,
@@ -215,6 +223,14 @@
   "runtime": 90,
   "director": "Louis Malle"
  },
+ "lb-29l6": {
+  "imdb_id": "tt0052572",
+  "year": 1959,
+  "rating": 8.4,
+  "genres": "Drama",
+  "runtime": 105,
+  "director": "Satyajit Ray"
+ },
  "lb-2lkk": {
   "imdb_id": "tt0053134",
   "year": 1959,
@@ -349,7 +365,7 @@
   "rating": 8.2,
   "genres": "Drama",
   "runtime": 108,
-  "director": "Mikheil Kalatozishvili"
+  "director": "Mikhail Kalatozov"
  },
  "lb-29eu": {
   "imdb_id": "tt0059578",
@@ -2077,7 +2093,7 @@
   "rating": 6.8,
   "genres": "Action, Crime, Drama",
   "runtime": 118,
-  "director": "Wai Keung Lau, Alan Mak"
+  "director": "Andrew Lau, Alan Mak"
  },
  "lb-1Y5c": {
   "imdb_id": "tt0375063",
@@ -3042,7 +3058,7 @@
  "lb-3hBy": {
   "imdb_id": "tt1872204",
   "year": 2012,
-  "rating": 7.1,
+  "rating": 7.2,
   "genres": "Adventure, Biography, Documentary",
   "runtime": 46,
   "director": ""
@@ -3391,6 +3407,14 @@
   "runtime": 136,
   "director": "Byun Sung-hyun"
  },
+ "lb-10Me4": {
+  "imdb_id": "tt39368189",
+  "year": 2026,
+  "rating": 6.4,
+  "genres": "Action, Drama, Music",
+  "runtime": 91,
+  "director": "Danny Madden"
+ },
  "lb-6CwK": {
   "imdb_id": "tt3205376",
   "year": 2015,
@@ -3442,7 +3466,7 @@
  "lb-TbG2": {
   "imdb_id": "tt35866986",
   "year": 2026,
-  "rating": null,
+  "rating": 6.4,
   "genres": "Action, Comedy, Crime",
   "runtime": 122,
   "director": "David Leitch"
@@ -3516,7 +3540,7 @@
   "year": 2026,
   "rating": 8.2,
   "genres": "Comedy, Drama",
-  "runtime": 122,
+  "runtime": 121,
   "director": "Jordan Firstman"
  },
  "lb-bDw2": {
@@ -3559,18 +3583,10 @@
   "runtime": 105,
   "director": "Ryo Fujii"
  },
- "lb-10Me4": {
-  "imdb_id": "tt39368189",
-  "year": 2026,
-  "rating": 6.3,
-  "genres": "Action, Drama, Music",
-  "runtime": 91,
-  "director": "Danny Madden"
- },
  "lb-10lQK": {
   "imdb_id": "tt39369854",
   "year": 2026,
-  "rating": 8.3,
+  "rating": 8.6,
   "genres": "Documentary",
   "runtime": 531,
   "director": "Haile Gerima"
@@ -3767,6 +3783,14 @@
   "runtime": 115,
   "director": "Lin-Manuel Miranda"
  },
+ "lb-jLP8": {
+  "imdb_id": "tt8847712",
+  "year": 2021,
+  "rating": 7.1,
+  "genres": "Comedy, Drama, Romance",
+  "runtime": 107,
+  "director": "Wes Anderson"
+ },
  "lb-jOF6": {
   "imdb_id": "tt8858104",
   "year": 2019,
@@ -3804,7 +3828,6 @@
   "lb-19c2",
   "lb-1Mn4",
   "lb-1jYA",
-  "lb-26H4",
   "lb-27Vw",
   "lb-28s6",
   "lb-29XO",
