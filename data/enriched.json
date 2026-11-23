@@ -131,7 +131,7 @@
   "imdb_id": "tt0048473",
   "year": 1955,
   "rating": 8.2,
-  "genres": "Drama, History",
+  "genres": "Drama",
   "runtime": 125,
   "director": "Satyajit Ray"
  },
@@ -222,14 +222,6 @@
   "genres": "Drama, Romance",
   "runtime": 90,
   "director": "Louis Malle"
- },
- "lb-29l6": {
-  "imdb_id": "tt0052572",
-  "year": 1959,
-  "rating": 8.4,
-  "genres": "Drama",
-  "runtime": 105,
-  "director": "Satyajit Ray"
  },
  "lb-2lkk": {
   "imdb_id": "tt0053134",
@@ -586,7 +578,7 @@
  "lb-1UHQ": {
   "imdb_id": "tt0071230",
   "year": 1974,
-  "rating": 7.7,
+  "rating": 7.6,
   "genres": "Comedy, Western",
   "runtime": 93,
   "director": "Mel Brooks"
@@ -2876,13 +2868,13 @@
   "year": 2010,
   "rating": 8.0,
   "genres": "Biography, Drama, History",
-  "runtime": 118,
+  "runtime": 119,
   "director": "Tom Hooper"
  },
  "lb-FIFe": {
   "imdb_id": "tt15067890",
   "year": 2023,
-  "rating": 5.4,
+  "rating": 5.5,
   "genres": "Drama, Thriller",
   "runtime": 110,
   "director": "Bartek Bala"
@@ -3274,7 +3266,7 @@
  "lb-E3vU": {
   "imdb_id": "tt27369017",
   "year": 2026,
-  "rating": 6.6,
+  "rating": 6.5,
   "genres": "Action, Horror, Sci-Fi",
   "runtime": 157,
   "director": "Na Hong-jin"
@@ -3290,7 +3282,7 @@
  "lb-G22Q": {
   "imdb_id": "tt27830613",
   "year": 2026,
-  "rating": 7.6,
+  "rating": 7.5,
   "genres": "Animation, Fantasy, Romance",
   "runtime": null,
   "director": "Alice Mao, Sophia Paez"
@@ -3298,7 +3290,7 @@
  "lb-X3MY": {
   "imdb_id": "tt37967547",
   "year": 2026,
-  "rating": 6.9,
+  "rating": 7.0,
   "genres": "Biography, Drama, Thriller",
   "runtime": 116,
   "director": "Danny Boyle"
@@ -3466,9 +3458,9 @@
  "lb-TbG2": {
   "imdb_id": "tt35866986",
   "year": 2026,
-  "rating": 6.4,
+  "rating": 6.5,
   "genres": "Action, Comedy, Crime",
-  "runtime": 122,
+  "runtime": 121,
   "director": "David Leitch"
  },
  "lb-UjYU": {
@@ -3538,7 +3530,7 @@
  "lb-Z6lK": {
   "imdb_id": "tt38058097",
   "year": 2026,
-  "rating": 8.2,
+  "rating": 8.1,
   "genres": "Comedy, Drama",
   "runtime": 121,
   "director": "Jordan Firstman"
@@ -3782,14 +3774,6 @@
   "genres": "Biography, Comedy, Drama",
   "runtime": 115,
   "director": "Lin-Manuel Miranda"
- },
- "lb-jLP8": {
-  "imdb_id": "tt8847712",
-  "year": 2021,
-  "rating": 7.1,
-  "genres": "Comedy, Drama, Romance",
-  "runtime": 107,
-  "director": "Wes Anderson"
  },
  "lb-jOF6": {
   "imdb_id": "tt8858104",
